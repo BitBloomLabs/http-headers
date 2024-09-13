@@ -1,0 +1,2288 @@
+{
+  "A-IM": {
+    "comments": "",
+    "description": "Acceptable instance-manipulations for the request",
+    "values": ["feed", "compress"],
+    "status": "permanent",
+    "structured type": "",
+    "reference_url": "https://www.iana.org/go/rfc3229",
+    "reference_desc": "RFC 3229: Delta encoding in HTTP"
+  },
+  "Accept": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Types that are acceptable for the response",
+    "values": [
+      "text/plain",
+      "application/json",
+      "application/xml",
+      "text/html"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 12.5.1: HTTP Semantics"
+  },
+  "Accept-Additions": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable additions for the request",
+    "values": ["cream", "sugar"],
+    "reference_url": "https://www.iana.org/go/rfc2324",
+    "reference_desc": "RFC 2324: Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)"
+  },
+  "Accept-CH": {
+    "status": "permanent",
+    "structured type": "List",
+    "comments": "",
+    "description": "Accept-CH HTTP response header field",
+    "values": ["Viewport-Width", "Width", "DPR", "Downlink"],
+    "reference_url": "https://www.iana.org/go/rfc8942",
+    "reference_desc": "RFC 8942, Section 3.1: HTTP Client Hints"
+  },
+  "Accept-Charset": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "",
+    "description": "Character sets that are acceptable",
+    "values": ["utf-8", "iso-8859-1", "utf-16", "utf-32"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 12.5.2: HTTP Semantics"
+  },
+  "Accept-Datetime": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable version in time, request a past versoin of the resource",
+    "values": [
+      "Thu, 31 May 2007 20:35:00 GMT",
+      "Thu, 31 May 2007 20:35:00 UTC"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc7089",
+    "reference_desc": "RFC 7089: HTTP Framework for Time-Based Access to Resource States -- Memento"
+  },
+  "Accept-Encoding": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable encodings for the response",
+    "values": ["gzip", "deflate", "br", "compress"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 12.5.3: HTTP Semantics"
+  },
+  "Accept-Features": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable features for the request",
+    "values": ["xml", "json"],
+    "reference_url": "https://www.iana.org/go/rfc2295",
+    "reference_desc": "RFC 2295: Transparent Content Negotiation in HTTP"
+  },
+  "Accept-Language": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable languages for the response",
+    "values": ["en-US", "en-GB", "en-CA", "en-AU"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 12.5.4: HTTP Semantics"
+  },
+  "Accept-Patch": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable patch document formats for the request",
+    "values": ["application/json-patch+json", "application/merge-patch+json"],
+    "reference_url": "https://www.iana.org/go/rfc5789",
+    "reference_desc": "RFC 5789: PATCH Method for HTTP"
+  },
+  "Accept-Post": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable post document formats for the request",
+    "values": ["text/turtle", "application/ld+json"],
+    "reference_url": "https://www.w3.org/TR/ldp",
+    "reference_desc": "Linked Data Platform 1.0"
+  },
+  "Accept-Ranges": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "What partial content range types this server supports",
+    "values": ["bytes", "none"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 14.3: HTTP Semantics"
+  },
+  "Accept-Signature": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Acceptable signature algorithms for the request",
+    "values": ["rsa-sha256", "hmac-sha256"],
+    "reference_url": "https://www.iana.org/go/rfc9421",
+    "reference_desc": "RFC 9421, Section 5.1: HTTP Message Signatures"
+  },
+  "Access-Control": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Access control features for the request",
+    "values": ["read", "write"],
+    "reference_url": "https://www.w3.org/TR/2007/WD-access-control-20071126/#access-control0",
+    "reference_desc": "Access Control for Cross-site Requests"
+  },
+  "Access-Control-Allow-Credentials": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates whether the response to the request can be exposed when the credentials flag is true",
+    "values": ["true", "false"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-allow-credentials",
+    "reference_desc": "Fetch"
+  },
+  "Access-Control-Allow-Headers": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request",
+    "values": ["X-Custom-Header", "X-Requested-With", "Content-Type"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-allow-headers",
+    "reference_desc": "Fetch"
+  },
+  "Access-Control-Allow-Methods": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used in response to a preflight request to indicate which HTTP methods can be used when making the actual request",
+    "values": ["GET", "POST", "PUT", "DELETE"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-allow-methods",
+    "reference_desc": "Fetch"
+  },
+  "Access-Control-Allow-Origin": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used in response to a preflight request to indicate which origin sites are allowed to make the actual request",
+    "values": ["*", "https://example.com", "https://example.org"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-allow-origin",
+    "reference_desc": "Fetch"
+  },
+  "Access-Control-Expose-Headers": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates which headers can be exposed as part of the response by listing their names",
+    "values": ["Content-Length", "Content-Type", "Date"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-expose-headers",
+    "reference_desc": "Fetch"
+  },
+  "Access-Control-Max-Age": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates how long the results of a preflight request can be cached",
+    "values": ["600", "86400"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-max-age",
+    "reference_desc": "Fetch"
+  },
+  "Access-Control-Request-Headers": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used when issuing a preflight request to let the server know what HTTP headers will be used when the actual request is made. Used in a CORS request.",
+    "values": ["X-Custom-Header", "X-Requested-With", "Content-Type"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-request-headers",
+    "reference_desc": "Fetch"
+  },
+  "Access-Control-Request-Method": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used when issuing a preflight request to let the server know what HTTP method will be used when the actual request is made. Used in a CORS request.",
+    "values": ["GET", "POST", "PUT", "DELETE"],
+    "reference_url": "https://fetch.spec.whatwg.org/#http-access-control-request-method",
+    "reference_desc": "Fetch"
+  },
+  "Age": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "The age the object has been in a proxy cache in seconds",
+    "values": ["120", "3600"],
+    "reference_url": "https://www.iana.org/go/rfc9111",
+    "reference_desc": "RFC9111, Section 5.1: HTTP Caching"
+  },
+  "Allow": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Valid methods for a specified resource",
+    "values": ["GET", "POST", "PUT", "DELETE"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.2.1: HTTP Semantics"
+  },
+  "ALPN": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Application-Layer Protocol Negotiation",
+    "values": ["h2", "http/1.1"],
+    "reference_url": "https://www.iana.org/go/rfc7639",
+    "reference_desc": "RFC 7639, Section 2: The ALPN HTTP Header Field"
+  },
+  "Alt-Svc": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Alternative services to the origin server",
+    "values": ["h2=\":8000\"", "h2=\":8001\""],
+    "reference_url": "https://www.iana.org/go/rfc7838",
+    "reference_desc": "RFC 7838: HTTP Alternative Services"
+  },
+  "Alt-Used": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "A server can send this header to indicate which alternative service was used",
+    "values": ["h2=\":8000\"", "h2=\":8001\""],
+    "reference_url": "https://www.iana.org/go/rfc7838",
+    "reference_desc": "RFC 7838: HTTP Alternative Services"
+  },
+  "Alternates": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Alternates for the request",
+    "values": ["text/html", "application/xml"],
+    "reference_url": "https://www.iana.org/go/rfc2295",
+    "reference_desc": "RFC 2295: Transparent Content Negotiation in HTTP"
+  },
+  "AMP-Cache-Transform": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "AMP Cache Transform",
+    "values": ["google", "cdn"],
+    "reference_url": "https://github.com/ampproject/amphtml/blob/main/docs/spec/amp-cache-transform.md",
+    "reference_desc": "AMP-Cache-Transform HTTP request header"
+  },
+  "Apply-To-Redirect-Ref": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Apply to Redirect Reference",
+    "values": ["T", "F"],
+    "reference_url": "https://www.iana.org/go/rfc4437",
+    "reference_desc": "RFC 4437: Web Distributed Authoring and Versioning (WebDAV) Redirect Reference Resources"
+  },
+  "Authentication-Control": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Authentication Control",
+    "values": ["no-cache", "no-store"],
+    "reference_url": "https://www.iana.org/go/rfc8053",
+    "reference_desc": "RFC 8053, Section 4: HTTP Authentication Extensions for Interactive Clients"
+  },
+  "Authentication-Info": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Authentication Information",
+    "values": ["qop=auth", "rspauth=abc123"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 11.6.3: HTTP Semantics"
+  },
+  "Authorization": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Authorization header",
+    "values": ["Bearer", "Basic"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 11.6.2: HTTP Semantics"
+  },
+  "C-Ext": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "C-Ext header",
+    "values": ["extension1", "extension2"],
+    "reference_url": "https://www.iana.org/go/rfc2774",
+    "reference_desc": "RFC 2774: An HTTP Extension Framework"
+  },
+  "C-Man": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "C-Man header",
+    "values": ["mandatory1", "mandatory2"],
+    "reference_url": "https://www.iana.org/go/rfc2774",
+    "reference_desc": "RFC 2774: An HTTP Extension Framework"
+  },
+  "C-Opt": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "C-Opt header",
+    "values": ["optional1", "optional2"],
+    "reference_url": "https://www.iana.org/go/rfc2774",
+    "reference_desc": "RFC 2774: An HTTP Extension Framework"
+  },
+  "C-PEP": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "C-PEP header",
+    "values": ["pep1", "pep2"],
+    "reference_url": "https://www.w3.org/TR/WD-http-pep",
+    "reference_desc": "PEP - an Extension Mechanism for HTTP"
+  },
+  "C-PEP-Info": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "C-PEP-Info header",
+    "values": ["info1", "info2"],
+    "reference_url": "https://www.w3.org/TR/WD-http-pep",
+    "reference_desc": "PEP - an Extension Mechanism for HTTP"
+  },
+  "Cache-Control": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Cache-Control header",
+    "values": ["no-cache", "no-store", "max-age=3600"],
+    "reference_url": "https://www.iana.org/go/rfc9111",
+    "reference_desc": "RFC9111, Section 5.2"
+  },
+  "Cache-Status": {
+    "status": "permanent",
+    "structured type": "List",
+    "comments": "",
+    "description": "Cache-Status header",
+    "values": ["hit", "miss", "revalidated"],
+    "reference_url": "https://www.iana.org/go/rfc9211",
+    "reference_desc": "RFC9211: The Cache-Status HTTP Response Header Field"
+  },
+  "Cal-Managed-ID": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Cal-Managed-ID header",
+    "values": ["urn:uuid:1234", "urn:uuid:5678"],
+    "reference_url": "https://www.iana.org/go/rfc8607",
+    "reference_desc": "RFC 8607, Section 5.1: Calendaring Extensions to WebDAV (CalDAV): Managed Attachments"
+  },
+  "CalDAV-Timezones": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "CalDAV-Timezones header",
+    "values": ["America/New_York", "Europe/London"],
+    "reference_url": "https://www.iana.org/go/rfc7809",
+    "reference_desc": "RFC 7809, Section 7.1: Calendaring Extensions to WebDAV (CalDAV): Time Zones by Reference"
+  },
+  "Capsule-Protocol": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Capsule-Protocol header",
+    "values": ["1", "2"],
+    "reference_url": "https://www.iana.org/go/rfc9297",
+    "reference_desc": "RFC9297"
+  },
+  "CDN-Cache-Control": {
+    "status": "permanent",
+    "structured type": "Dictionary",
+    "comments": "Cache directives targeted at content delivery networks",
+    "description": "CDN-Cache-Control header",
+    "values": ["max-age=3600", "stale-while-revalidate=60"],
+    "reference_url": "https://www.iana.org/go/rfc9213",
+    "reference_desc": "RFC9213: Targeted HTTP Cache Control"
+  },
+  "CDN-Loop": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "CDN-Loop header",
+    "values": ["cdn1", "cdn2"],
+    "reference_url": "https://www.iana.org/go/rfc8586",
+    "reference_desc": "RFC 8586: Loop Detection in Content Delivery Networks (CDNs)"
+  },
+  "Cert-Not-After": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Cert-Not-After header",
+    "values": ["2023-12-31T23:59:59Z", "2024-12-31T23:59:59Z"],
+    "reference_url": "https://www.iana.org/go/rfc8739",
+    "reference_desc": "RFC 8739, Section 3.3: Support for Short-Term, Automatically Renewed (STAR) Certificates in the Automated Certificate Management Environment (ACME)"
+  },
+  "Cert-Not-Before": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Cert-Not-Before header",
+    "values": ["2023-01-01T00:00:00Z", "2024-01-01T00:00:00Z"],
+    "reference_url": "https://www.iana.org/go/rfc8739",
+    "reference_desc": "RFC 8739, Section 3.3: Support for Short-Term, Automatically Renewed (STAR) Certificates in the Automated Certificate Management Environment (ACME)"
+  },
+  "Clear-Site-Data": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Clear-Site-Data header",
+    "values": ["\"cache\"", "\"cookies\""],
+    "reference_url": "https://w3.org/TR/clear-site-data/#header",
+    "reference_desc": "Clear Site Data"
+  },
+  "Client-Cert": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Client-Cert header",
+    "values": [
+      "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...",
+      "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA..."
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9440",
+    "reference_desc": "RFC9440, Section 2: Client-Cert HTTP Header Field"
+  },
+  "Client-Cert-Chain": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Client-Cert-Chain header",
+    "values": [
+      "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...",
+      "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA..."
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9440",
+    "reference_desc": "RFC9440, Section 2: Client-Cert HTTP Header Field"
+  },
+  "Close": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "(reserved)",
+    "description": "Close header",
+    "values": ["close"],
+    "reference_url": "https://www.iana.org/go/rfc9112",
+    "reference_desc": "RFC9112, Section 9.6: HTTP/1.1"
+  },
+  "CMCD-Object": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "CMCD-Object header",
+    "values": ["ot=v", "ot=a"],
+    "reference_url": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5004-final.pdf",
+    "reference_desc": "CTA CTA-5004 Common Media Client Data"
+  },
+  "CMCD-Request": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "CMCD-Request header",
+    "values": ["br=5000", "d=1000"],
+    "reference_url": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5004-final.pdf",
+    "reference_desc": "CTA CTA-5004 Common Media Client Data"
+  },
+  "CMCD-Session": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "CMCD-Session header",
+    "values": ["sid=abc123", "cid=xyz789"],
+    "reference_url": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5004-final.pdf",
+    "reference_desc": "CTA CTA-5004 Common Media Client Data"
+  },
+  "CMCD-Status": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "CMCD-Status header",
+    "values": ["st=ok", "st=error"],
+    "reference_url": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5004-final.pdf",
+    "reference_desc": "CTA CTA-5004 Common Media Client Data"
+  },
+  "CMSD-Dynamic": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "CMSD-Dynamic header",
+    "values": ["d=1000", "br=5000"],
+    "reference_url": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5006-final.pdf",
+    "reference_desc": "CTA CTA-5006 Common Media Server Data (CMSD)"
+  },
+  "CMSD-Static": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "CMSD-Static header",
+    "values": ["v=1.0", "v=2.0"],
+    "reference_url": "https://cdn.cta.tech/cta/media/media/resources/standards/pdfs/cta-5006-final.pdf",
+    "reference_desc": "CTA CTA-5006 Common Media Server Data (CMSD)"
+  },
+  "Configuration-Context": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Configuration-Context header",
+    "values": ["context1", "context2"],
+    "reference_url": "https://docs.oasis-open-projects.org/oslc-op/config/v1.0/psd01/config-resources.html#configcontext",
+    "reference_desc": "OSLC Configuration Management Version 1.0. Part 3: Configuration Specification"
+  },
+  "Connection": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Connection header",
+    "values": ["close", "keep-alive"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 7.6.1: HTTP Semantics"
+  },
+  "Content-Base": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "Obsoleted by RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1",
+    "description": "Content-Base header",
+    "values": ["http://example.com/base1", "http://example.com/base2"],
+    "reference_url": "https://www.iana.org/go/rfc2068",
+    "reference_desc": "RFC 2068: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  "Content-Digest": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Digest header",
+    "values": ["sha-256=abc123", "sha-512=xyz789"],
+    "reference_url": "https://www.iana.org/go/rfc9530",
+    "reference_desc": "RFC 9530, Section 2: Digest Fields"
+  },
+  "Content-Disposition": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Disposition header",
+    "values": ["inline", "attachment"],
+    "reference_url": "https://www.iana.org/go/rfc6266",
+    "reference_desc": "RFC 6266: Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)"
+  },
+  "Content-Encoding": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Encoding header",
+    "values": ["gzip", "compress", "deflate", "br"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 8.4: HTTP Semantics"
+  },
+  "Content-ID": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-ID header",
+    "values": ["<1234>", "<5678>"],
+    "reference_url": "https://www.w3.org/TR/NOTE-drp",
+    "reference_desc": "The HTTP Distribution and Replication Protocol"
+  },
+  "Content-Language": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Language header",
+    "values": ["en", "fr", "de"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 8.5: HTTP Semantics"
+  },
+  "Content-Length": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Length header",
+    "values": ["1234", "5678"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 8.6: HTTP Semantics"
+  },
+  "Content-Location": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Location header",
+    "values": ["http://example.com/resource1", "http://example.com/resource2"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 8.7: HTTP Semantics"
+  },
+  "Content-MD5": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "Obsoleted by RFC 7231, Appendix B: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
+    "description": "Content-MD5 header",
+    "values": ["Q2hlY2sgSW50ZWdyaXR5IQ==", "d41d8cd98f00b204e9800998ecf8427e"],
+    "reference_url": "https://www.iana.org/go/rfc2616",
+    "reference_desc": "RFC 2616, Section 14.15: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  "Content-Range": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Range header",
+    "values": ["bytes 200-1000/67589", "bytes 200-1000/*"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 14.4: HTTP Semantics"
+  },
+  "Content-Script-Type": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Script-Type header",
+    "values": ["text/javascript", "application/javascript"],
+    "reference_url": "https://www.w3.org/TR/html401",
+    "reference_desc": "HTML 4.01 Specification"
+  },
+  "Content-Security-Policy": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Security-Policy header",
+    "values": ["default-src 'self'", "script-src 'self' 'unsafe-inline'"],
+    "reference_url": "https://www.w3.org/TR/CSP/#csp-header",
+    "reference_desc": "Content Security Policy Level 3"
+  },
+  "Content-Security-Policy-Report-Only": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Security-Policy-Report-Only header",
+    "values": ["default-src 'self'", "script-src 'self' 'unsafe-inline'"],
+    "reference_url": "https://www.w3.org/TR/CSP/#cspro-header",
+    "reference_desc": "Content Security Policy Level 3"
+  },
+  "Content-Style-Type": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Style-Type header",
+    "values": ["text/css"],
+    "reference_url": "https://www.w3.org/TR/html401",
+    "reference_desc": "HTML 4.01 Specification"
+  },
+  "Content-Type": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Type header",
+    "values": ["text/html", "application/json"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 8.3: HTTP Semantics"
+  },
+  "Content-Version": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Content-Version header",
+    "values": ["1.0", "2.0"],
+    "reference_url": "https://www.iana.org/go/rfc2068",
+    "reference_desc": "RFC 2068: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  "Cookie": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Cookie header",
+    "values": ["sessionId=abc123", "userId=789xyz"],
+    "reference_url": "https://www.iana.org/go/rfc6265",
+    "reference_desc": "RFC 6265: HTTP State Management Mechanism"
+  },
+  "Cookie2": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "Obsoleted by  RFC 6265: HTTP State Management Mechanism",
+    "description": "Cookie2 header",
+    "values": ["$Version=1; sessionId=abc123", "$Version=1; userId=789xyz"],
+    "reference_url": "https://www.iana.org/go/rfc2965",
+    "reference_desc": "RFC 2965: HTTP State Management Mechanism"
+  },
+  "Cross-Origin-Embedder-Policy": {
+    "status": "permanent",
+    "structured type": "Item",
+    "comments": "",
+    "description": "Cross-Origin-Embedder-Policy header",
+    "values": ["require-corp", "unsafe-none"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/origin.html#cross-origin-embedder-policy",
+    "reference_desc": "HTML"
+  },
+  "Cross-Origin-Embedder-Policy-Report-Only": {
+    "status": "permanent",
+    "structured type": "Item",
+    "comments": "",
+    "description": "Cross-Origin-Embedder-Policy-Report-Only header",
+    "values": ["require-corp", "unsafe-none"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/origin.html#cross-origin-embedder-policy-report-only",
+    "reference_desc": "HTML"
+  },
+  "Cross-Origin-Opener-Policy": {
+    "status": "permanent",
+    "structured type": "Item",
+    "comments": "",
+    "description": "Cross-Origin-Opener-Policy header",
+    "values": ["same-origin", "same-origin-allow-popups", "unsafe-none"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/origin.html#cross-origin-opener-policy-2",
+    "reference_desc": "HTML"
+  },
+  "Cross-Origin-Opener-Policy-Report-Only": {
+    "status": "permanent",
+    "structured type": "Item",
+    "comments": "",
+    "description": "Cross-Origin-Opener-Policy-Report-Only header",
+    "values": ["same-origin", "same-origin-allow-popups", "unsafe-none"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/origin.html#cross-origin-opener-policy-report-only",
+    "reference_desc": "HTML"
+  },
+  "Cross-Origin-Resource-Policy": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Cross-Origin-Resource-Policy header",
+    "values": ["same-origin", "same-site", "cross-origin"],
+    "reference_url": "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header",
+    "reference_desc": "Fetch"
+  },
+  "CTA-Common-Access-Token": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "CTA Common Access Token header",
+    "values": ["token123", "token456"],
+    "reference_url": "https://www.iana.org/assignments/http-fields/http-fields.xhtml#CTA",
+    "reference_desc": "CTA #Chris_Lemmons"
+  },
+  "DASL": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "DASL header",
+    "values": ["<DAV:basicsearch>", "<DAV:advancedsearch>"],
+    "reference_url": "https://www.iana.org/go/rfc5323",
+    "reference_desc": "RFC 5323: Web Distributed Authoring and Versioning (WebDAV) SEARCH"
+  },
+  "Date": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Date header",
+    "values": [
+      "Tue, 15 Nov 1994 08:12:31 GMT",
+      "Wed, 21 Oct 2015 07:28:00 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 6.6.1: HTTP Semantics"
+  },
+  "DAV": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "DAV header",
+    "values": ["1", "2", "3"],
+    "reference_url": "https://www.iana.org/go/rfc4918",
+    "reference_desc": "RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+  },
+  "Default-Style": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Default-Style header",
+    "values": ["style1", "style2"],
+    "reference_url": "https://www.w3.org/TR/html401",
+    "reference_desc": "HTML 4.01 Specification"
+  },
+  "Delta-Base": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Delta-Base header",
+    "values": ["http://example.com/resource1", "http://example.com/resource2"],
+    "reference_url": "https://www.iana.org/go/rfc3229",
+    "reference_desc": "RFC 3229: Delta encoding in HTTP"
+  },
+  "Depth": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Depth header",
+    "values": ["0", "1", "infinity"],
+    "reference_url": "https://www.iana.org/go/rfc4918",
+    "reference_desc": "RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+  },
+  "Derived-From": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Derived-From header",
+    "values": [
+      "http://example.com/previous-version1",
+      "http://example.com/previous-version2"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc2068",
+    "reference_desc": "RFC 2068: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  "Destination": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Destination header",
+    "values": [
+      "http://example.com/destination1",
+      "http://example.com/destination2"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc4918",
+    "reference_desc": "RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+  },
+  "Differential-ID": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "",
+    "description": "Differential-ID header",
+    "values": ["12345", "67890"],
+    "reference_url": "https://www.w3.org/TR/NOTE-drp",
+    "reference_desc": "The HTTP Distribution and Replication Protocol"
+  },
+  "Digest": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "Obsoleted by RFC 9530, Section 1.3: Digest Fields",
+    "description": "Digest header",
+    "values": ["SHA-256=abc123", "SHA-512=def456"],
+    "reference_url": "https://www.iana.org/go/rfc3230",
+    "reference_desc": "RFC 3230: Instance Digests in HTTP"
+  },
+  "DPoP": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "DPoP header",
+    "values": [
+      "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9",
+      "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9449",
+    "reference_desc": "RFC9449: OAuth 2.0 Demonstrating Proof of Possession (DPoP)"
+  },
+  "DPoP-Nonce": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "DPoP-Nonce header",
+    "values": ["nonce-value1", "nonce-value2"],
+    "reference_url": "https://www.iana.org/go/rfc9449",
+    "reference_desc": "RFC9449: OAuth 2.0 Demonstrating Proof of Possession (DPoP)"
+  },
+  "Early-Data": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Early-Data header",
+    "values": ["1"],
+    "reference_url": "https://www.iana.org/go/rfc8470",
+    "reference_desc": "RFC 8470: Using Early Data in HTTP"
+  },
+  "EDIINT-Features": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "EDIINT-Features header",
+    "values": ["multiple-attachments", "compression"],
+    "reference_url": "https://www.iana.org/go/rfc6017",
+    "reference_desc": "RFC 6017: Electronic Data Interchange - Internet Integration (EDIINT) Features Header Field"
+  },
+  "ETag": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "ETag header",
+    "values": ["\"123456789\"", "W/\"987654321\""],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 8.8.3: HTTP Semantics"
+  },
+  "Expect": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Expect header",
+    "values": ["100-continue"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.1.1: HTTP Semantics"
+  },
+  "Expect-CT": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "Obsoleted by https://www6.ietf.org/iesg/minutes/2024/minutes-2024-01-18.txt IESG https://mailarchive.ietf.org/arch/msg/httpbisa/XpAWZsIre5WAte3lXGTh6A77sok HTTPBIS",
+    "description": "Expect-CT header",
+    "values": [
+      "max-age=86400",
+      "enforce",
+      "report-uri=\"https://example.com/report\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9163",
+    "reference_desc": "RFC9163: Expect-CT Extension for HTTP"
+  },
+  "Expires": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Expires header",
+    "values": [
+      "Wed, 21 Oct 2015 07:28:00 GMT",
+      "Thu, 01 Dec 1994 16:00:00 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9111",
+    "reference_desc": "RFC9111, Section 5.3: HTTP Caching"
+  },
+  "Ext": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "Ext header",
+    "values": ["extension1", "extension2"],
+    "reference_url": "https://www.iana.org/go/rfc2774",
+    "reference_desc": "RFC 2774: An HTTP Extension Framework"
+  },
+  "Forwarded": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Forwarded header",
+    "values": ["for='_gazonk'", "for='_gazonk';by='_gauss'"],
+    "reference_url": "https://www.iana.org/go/rfc7239",
+    "reference_desc": "RFC 7239: Forwarded HTTP Extension"
+  },
+  "From": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "The email address of the user making the request",
+    "values": ["user@example.com"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.1.2: HTTP Semantics"
+  },
+  "GetProfile": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Request a profile of the user",
+    "values": ["profile1", "profile2"],
+    "reference_url": "https://www.w3.org/TR/NOTE-OPS-OverHTTP",
+    "reference_desc": "Implementation of OPS Over HTTP"
+  },
+  "Hobareg": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "HOBA registration header",
+    "values": ["hoba1", "hoba2"],
+    "reference_url": "https://www.iana.org/go/rfc7486",
+    "reference_desc": "RFC 7486, Section 6.1.1: HTTP Origin-Bound Authentication (HOBA)"
+  },
+  "Host": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the domain name of the server and the TCP port number on which the server is listening",
+    "values": ["example.com", "example.com:8080"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 7.2: HTTP Semantics"
+  },
+  "HTTP2-Settings": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "Obsolete; see Section 11.1 of RFC9113",
+    "description": "Used to convey settings to the server in HTTP/2",
+    "values": [
+      "SETTINGS_MAX_CONCURRENT_STREAMS=100",
+      "SETTINGS_INITIAL_WINDOW_SIZE=65535"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc7540",
+    "reference_desc": "RFC 7540, Section 3.2.1: Hypertext Transfer Protocol Version 2 (HTTP/2)"
+  },
+  "If": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used with WebDAV methods to make the request conditional",
+    "values": ["<locktoken:write1>", "<locktoken:write2>"],
+    "reference_url": "https://www.iana.org/go/rfc4918",
+    "reference_desc": "RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+  },
+  "If-Match": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Makes the request conditional on the current ETag value of the target resource matching any of the listed ETags",
+    "values": ["\"etag1\"", "\"etag2\""],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 13.1.1: HTTP Semantics"
+  },
+  "If-Modified-Since": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Makes the request conditional on the target resource having been modified since the specified date",
+    "values": [
+      "Wed, 21 Oct 2015 07:28:00 GMT",
+      "Tue, 15 Nov 1994 12:45:26 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 13.1.3: HTTP Semantics"
+  },
+  "If-None-Match": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Makes the request conditional on the target resource's ETag not matching any of the listed ETags",
+    "values": ["\"etag1\"", "\"etag2\""],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 13.1.2: HTTP Semantics"
+  },
+  "If-Range": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Makes the request conditional on the target resource's ETag or Last-Modified date matching the given value",
+    "values": ["\"etag1\"", "Wed, 21 Oct 2015 07:28:00 GMT"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 13.1.5: HTTP Semantics"
+  },
+  "If-Schedule-Tag-Match": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Makes the request conditional on the target resource's schedule tag matching the given value",
+    "values": ["\"schedule-tag1\"", "\"schedule-tag2\""],
+    "reference_url": "https://www.iana.org/go/rfc6638",
+    "reference_desc": " RFC 6338: Scheduling Extensions to CalDAV"
+  },
+  "If-Unmodified-Since": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Makes the request conditional on the target resource not having been modified since the specified date",
+    "values": [
+      "Wed, 21 Oct 2015 07:28:00 GMT",
+      "Tue, 15 Nov 1994 12:45:26 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 13.1.4: HTTP Semantics"
+  },
+  "IM": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies instance manipulations (delta encoding) that are acceptable in the response",
+    "values": ["\"vcdiff\"", "\"gzip\""],
+    "reference_url": "https://www.iana.org/go/rfc3229",
+    "reference_desc": "RFC 3229: Delta encoding in HTTP"
+  },
+  "Include-Referred-Token-Binding-ID": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates that the referred token binding ID should be included in the request",
+    "values": ["true", "false"],
+    "reference_url": "https://www.iana.org/go/rfc8473",
+    "reference_desc": "RFC 8473: Token Binding over HTTP"
+  },
+  "Isolation": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the isolation level for the request",
+    "values": ["snapshot", "read-committed"],
+    "reference_url": "http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html#sec_HeaderIsolationODataIsolation",
+    "reference_desc": "OData Version 4.01 Part 1: Protocol"
+  },
+  "Keep-Alive": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Controls the persistence of the connection",
+    "values": ["timeout=5", "max=1000"],
+    "reference_url": "https://www.iana.org/go/rfc2068",
+    "reference_desc": "RFC 2068: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  "Label": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies a label for a versioned resource",
+    "values": ["label1", "label2"],
+    "reference_url": "https://www.iana.org/go/rfc3253",
+    "reference_desc": "RFC 3253: Versioning Extensions to WebDAV: (Web Distributed Authoring and Versioning)"
+  },
+  "Last-Event-ID": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Contains the ID of the last event received",
+    "values": ["event-id-1234", "event-id-5678"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/server-sent-events.html#last-event-id",
+    "reference_desc": "HTML"
+  },
+  "Last-Modified": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the date and time at which the resource was last modified",
+    "values": [
+      "Wed, 21 Oct 2015 07:28:00 GMT",
+      "Tue, 15 Nov 1994 12:45:26 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 8.8.2: HTTP Semantics"
+  },
+  "Link": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides a means for serializing one or more links in HTTP headers",
+    "values": [
+      "<http://example.com>; rel=\"next\"",
+      "<http://example.org>; rel=\"prev\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc8288",
+    "reference_desc": "RFC 8288: Web Linking"
+  },
+  "Link-Template": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Defines a link template that can be used to generate links",
+    "values": [
+      "<http://example.com/{id}>; rel=\"item\"",
+      "<http://example.org/{name}>; rel=\"search\""
+    ],
+    "reference_url": "https://www.iana.org/go/draft-ietf-httpapi-link-template-04",
+    "reference_desc": "RFC-ietf-httpapi-link-template-04: The Link-Template HTTP Header Field"
+  },
+  "Location": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the URL to redirect a page to or where a newly created resource is located",
+    "values": [
+      "http://example.com/resource",
+      "http://example.org/another-resource"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.2.2: HTTP Semantics"
+  },
+  "Lock-Token": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Identifies a particular lock on a resource",
+    "values": [
+      "opaquelocktoken:1234-5678-90ab-cdef",
+      "opaquelocktoken:abcd-efgh-ijkl-mnop"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc4918",
+    "reference_desc": "RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+  },
+  "Man": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "Specifies mandatory extensions for the request",
+    "values": [
+      "http://example.com/extension1",
+      "http://example.org/extension2"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc2774",
+    "reference_desc": "RFC 2774: An HTTP Extension Framework"
+  },
+  "Max-Forwards": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the maximum number of times a request can be forwarded by proxies",
+    "values": ["10", "20"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 7.6.2: HTTP Semantics"
+  },
+  "Memento-Datetime": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the datetime of the original resource that the Memento represents",
+    "values": [
+      "Wed, 21 Oct 2015 07:28:00 GMT",
+      "Tue, 15 Nov 1994 12:45:26 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc7089",
+    "reference_desc": "RFC 7089: HTTP Framework for Time-Based Access to Resource States -- Memento"
+  },
+  "Meter": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used for simple hit-metering and usage-limiting",
+    "values": ["hits=100", "limit=1000"],
+    "reference_url": "https://www.iana.org/go/rfc2227",
+    "reference_desc": "RFC 2227: Simple Hit-Metering and Usage-Limiting for HTTP"
+  },
+  "Method-Check": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to check if a method is allowed for cross-site requests",
+    "values": ["GET", "POST"],
+    "reference_url": "https://www.w3.org/TR/2007/WD-access-control-20071126/#method-check",
+    "reference_desc": "Access Control for Cross-site Requests"
+  },
+  "Method-Check-Expires": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the expiration time for the method check",
+    "values": [
+      "Wed, 21 Oct 2015 07:28:00 GMT",
+      "Tue, 15 Nov 1994 12:45:26 GMT"
+    ],
+    "reference_url": "https://www.w3.org/TR/2007/WD-access-control-20071126/#method-check-expires",
+    "reference_desc": "Access Control for Cross-site Requests"
+  },
+  "MIME-Version": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the version of the MIME protocol used",
+    "values": ["1.0", "1.1"],
+    "reference_url": "https://www.iana.org/go/rfc9112",
+    "reference_desc": "RFC9112, Appendix B.1: HTTP/1.1"
+  },
+  "Negotiate": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to indicate that the client supports transparent content negotiation",
+    "values": ["trans", "negotiate"],
+    "reference_url": "https://www.iana.org/go/rfc2295",
+    "reference_desc": "RFC 2295: Transparent Content Negotiation in HTTP"
+  },
+  "NEL": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Network Error Logging header used to configure network error reporting",
+    "values": [
+      "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+    ],
+    "reference_url": "https://www.w3.org/TR/network-error-logging/",
+    "reference_desc": "Network Error Logging"
+  },
+  "OData-EntityId": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "OData header used to specify the entity ID",
+    "values": [
+      "http://example.com/odata/Entity(1)",
+      "http://example.com/odata/Entity(2)"
+    ],
+    "reference_url": "http://docs.oasis-open.org/odata/odata/v4.01/csprd05/part1-protocol/odata-v4.01-csprd05-part1-protocol.html#_Toc14172735",
+    "reference_desc": "OData Version 4.01 Part 1: Protocol"
+  },
+  "OData-Isolation": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "OData header used to specify the isolation level",
+    "values": ["snapshot"],
+    "reference_url": "http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html#sec_HeaderIsolationODataIsolation",
+    "reference_desc": "OData Version 4.01 Part 1: Protocol"
+  },
+  "OData-MaxVersion": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "OData header used to specify the maximum OData version",
+    "values": ["4.0", "4.01"],
+    "reference_url": "http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html#sec_HeaderODataMaxVersion",
+    "reference_desc": "OData Version 4.01 Part 1: Protocol"
+  },
+  "OData-Version": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "OData header used to specify the OData version",
+    "values": ["4.0", "4.01"],
+    "reference_url": "http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html#sec_HeaderODataVersion",
+    "reference_desc": "OData Version 4.01 Part 1: Protocol"
+  },
+  "Opt": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "Specifies optional extensions for the request",
+    "values": [
+      "http://example.com/extension1",
+      "http://example.org/extension2"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc2774",
+    "reference_desc": "RFC 2774: An HTTP Extension Framework"
+  },
+  "Optional-WWW-Authenticate": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides optional authentication challenges that the client may use",
+    "values": ["Basic realm=\"example\"", "Bearer realm=\"example\""],
+    "reference_url": "https://www.iana.org/go/rfc8053",
+    "reference_desc": "RFC 8053, Section 3: HTTP Authentication Extensions for Interactive Clients"
+  },
+  "Ordering-Type": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the ordering semantics for a WebDAV collection",
+    "values": ["unordered", "ordered"],
+    "reference_url": "https://www.iana.org/go/rfc3648",
+    "reference_desc": "RFC 3648: Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol"
+  },
+  "Origin": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the origin(s) that are permitted to access the resource",
+    "values": ["http://example.com", "https://example.org"],
+    "reference_url": "https://www.iana.org/go/rfc6454",
+    "reference_desc": "RFC 6454: The Web Origin Concept"
+  },
+  "Origin-Agent-Cluster": {
+    "status": "permanent",
+    "structured type": "Item",
+    "comments": "",
+    "description": "Indicates whether the origin should be isolated in a separate agent cluster",
+    "values": ["?1", "?0"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/origin.html#origin-agent-cluster",
+    "reference_desc": "HTML"
+  },
+  "OSCORE": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the use of Object Security for Constrained RESTful Environments (OSCORE)",
+    "values": ["example-oscore-value1", "example-oscore-value2"],
+    "reference_url": "https://www.iana.org/go/rfc8613",
+    "reference_desc": "RFC 8613, Section 11.1: Object Security for Constrained RESTful Environments (OSCORE)"
+  },
+  "OSLC-Core-Version": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the version of the OSLC Core specification being used",
+    "values": ["3.0", "2.0"],
+    "reference_url": "https://docs.oasis-open-projects.org/oslc-op/core/v3.0/oslc-core.html",
+    "reference_desc": "OASIS Project Specification 01"
+  },
+  "Overwrite": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies whether the destination resource should be overwritten",
+    "values": ["T", "F"],
+    "reference_url": "https://www.iana.org/go/rfc4918",
+    "reference_desc": "RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+  },
+  "P3P": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides a mechanism for websites to declare their intended use of information they collect about browsing users",
+    "values": [
+      "CP=\"CAO DSP COR CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI COM NAV INT DEM STA PRE\""
+    ],
+    "reference_url": "https://www.w3.org/TR/P3P",
+    "reference_desc": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
+  },
+  "PEP": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the use of HTTP extensions",
+    "values": [
+      "http://www.example.com/extension1",
+      "http://www.example.com/extension2"
+    ],
+    "reference_url": "http://www.w3.org/TR/WD-http-pep",
+    "reference_desc": "PEP - an Extension Mechanism for HTTP"
+  },
+  "PEP-Info": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides additional information about the HTTP extensions used",
+    "values": [
+      "http://www.example.com/extension-info1",
+      "http://www.example.com/extension-info2"
+    ],
+    "reference_url": "http://www.w3.org/TR/WD-http-pep",
+    "reference_desc": "PEP - an Extension Mechanism for HTTP"
+  },
+  "Permissions-Policy": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Controls which features and APIs can be used in the browser",
+    "values": ["geolocation=(self)", "camera=(self)"],
+    "reference_url": "https://w3c.github.io/webappsec-permissions-policy",
+    "reference_desc": "Permissions Policy"
+  },
+  "PICS-Label": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides a mechanism for websites to label their content for content filtering",
+    "values": [
+      "(PICS-1.1 \"http://www.example.com/ratings\" l gen true for \"http://www.example.com\" r (s 1 v 0))"
+    ],
+    "reference_url": "https://www.w3.org/TR/REC-PICS-labels-961031",
+    "reference_desc": "PICS Label Distribution Label Syntax and Communication Protocols"
+  },
+  "Ping-From": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the origin of the ping request",
+    "values": ["http://example.com", "https://example.org"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/links.html#ping-from",
+    "reference_desc": "HTML"
+  },
+  "Ping-To": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the destination of the ping request",
+    "values": ["http://example.com/ping", "https://example.org/ping"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/links.html#ping-to",
+    "reference_desc": "HTML"
+  },
+  "Position": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the position of a member in an ordered collection",
+    "values": ["before", "after"],
+    "reference_url": "https://www.iana.org/go/rfc3648",
+    "reference_desc": "RFC 3648: Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol"
+  },
+  "Pragma": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "",
+    "description": "Used for backwards compatibility with HTTP/1.0 caches",
+    "values": ["no-cache"],
+    "reference_url": "https://www.iana.org/go/rfc9111",
+    "reference_desc": "RFC9111, Section 5.4: HTTP Caching"
+  },
+  "Prefer": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the client's preferred server behavior",
+    "values": ["return=representation", "respond-async"],
+    "reference_url": "https://www.iana.org/go/rfc7240",
+    "reference_desc": "RFC 7240: Prefer Header for HTTP"
+  },
+  "Preference-Applied": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates which preferences were applied to the request",
+    "values": ["return=representation", "respond-async"],
+    "reference_url": "https://www.iana.org/go/rfc7240",
+    "reference_desc": "RFC 7240: Prefer Header for HTTP"
+  },
+  "Priority": {
+    "status": "permanent",
+    "structured type": "Dictionary",
+    "comments": "",
+    "description": "Specifies the priority of the HTTP request",
+    "values": ["urgency=1, progressive", "urgency=2, background"],
+    "reference_url": "https://www.iana.org/go/rfc9218",
+    "reference_desc": "RFC9218: Extensible Prioritization Scheme for HTTP"
+  },
+  "ProfileObject": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to request a profile of the user",
+    "values": ["profile1", "profile2"],
+    "reference_url": "https://www.w3.org/TR/NOTE-OPS-OverHTTP",
+    "reference_desc": "Implementation of OPS Over HTTP"
+  },
+  "Protocol": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the protocol used",
+    "values": ["protocol1", "protocol2"],
+    "reference_url": "https://www.w3.org/TR/REC-PICS-labels-961031",
+    "reference_desc": "PICS Label Distribution Label Syntax and Communication Protocols"
+  },
+  "Protocol-Info": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides additional information about the protocol",
+    "values": ["info1", "info2"],
+    "reference_url": "https://www.w3.org/TR/NOTE-jepi",
+    "reference_desc": "White Paper: Joint Electronic Payment Initiative"
+  },
+  "Protocol-Query": {
+    "status": "deprecated",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to query the protocol",
+    "values": ["query1", "query2"],
+    "reference_url": "https://www.w3.org/TR/NOTE-jepi",
+    "reference_desc": "White Paper: Joint Electronic Payment Initiative"
+  },
+  "Protocol-Request": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to request a specific protocol",
+    "values": ["request1", "request2"],
+    "reference_url": "https://www.w3.org/TR/REC-PICS-labels-961031",
+    "reference_desc": "PICS Label Distribution Label Syntax and Communication Protocols"
+  },
+  "Proxy-Authenticate": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the authentication method that should be used to access a resource behind a proxy server",
+    "values": [
+      "Basic realm=\"example\"",
+      "Digest realm=\"example\", qop=\"auth\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 11.7.1: HTTP Semantics"
+  },
+  "Proxy-Authentication-Info": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Contains information about the authentication status after a successful proxy authentication",
+    "values": [
+      "nextnonce=\"dcd98b7102dd2f0e8b11d0f600bfb0c093\"",
+      "cnonce=\"0a4f113b\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 11.7.3: HTTP Semantics"
+  },
+  "Proxy-Authorization": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Contains the credentials to authenticate a user agent with a proxy server",
+    "values": [
+      "Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==",
+      "Digest username=\"Mufasa\", realm=\"example\", uri=\"/dir/index.html\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 11.7.2: HTTP Semantics"
+  },
+  "Proxy-Features": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to describe the features supported by a proxy",
+    "values": ["feature1", "feature2"],
+    "reference_url": "https://www.w3.org/TR/WD-proxy.html",
+    "reference_desc": "Notification for Proxy Caches"
+  },
+  "Proxy-Instruction": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to provide instructions to a proxy",
+    "values": ["instruction1", "instruction2"],
+    "reference_url": "https://www.w3.org/TR/WD-proxy.html",
+    "reference_desc": "Notification for Proxy Caches"
+  },
+  "Proxy-Status": {
+    "status": "permanent",
+    "structured type": "List",
+    "comments": "",
+    "description": "Provides information about the status of a request as it passes through a proxy",
+    "values": ["error", "success"],
+    "reference_url": "https://www.iana.org/go/rfc9209",
+    "reference_desc": "RFC9209: The Proxy-Status HTTP Response Header Field"
+  },
+  "Public": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates that the response is public and can be cached by any cache",
+    "values": ["public"],
+    "reference_url": "https://www.iana.org/go/rfc2068",
+    "reference_desc": "RFC 2068: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  "Public-Key-Pins": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Allows web host operators to instruct user agents to remember (pin) the hosts' cryptographic identities for a given period of time",
+    "values": [
+      "pin-sha256=\"base64+primary==\"; max-age=5184000; includeSubDomains",
+      "pin-sha256=\"base64+backup==\"; max-age=5184000"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc7469",
+    "reference_desc": "RFC 7469: Public Key Pinning Extension for HTTP"
+  },
+  "Public-Key-Pins-Report-Only": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Allows web host operators to instruct user agents to remember (pin) the hosts' cryptographic identities for a given period of time, but only report violations",
+    "values": [
+      "pin-sha256=\"base64+primary==\"; max-age=5184000; includeSubDomains; report-uri=\"https://example.com/report\"",
+      "pin-sha256=\"base64+backup==\"; max-age=5184000; report-uri=\"https://example.com/report\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc7469",
+    "reference_desc": "RFC 7469: Public Key Pinning Extension for HTTP"
+  },
+  "Range": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the part of a document that the server should return",
+    "values": ["bytes=0-499", "bytes=500-999"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 14.2: HTTP Semantics"
+  },
+  "Redirect-Ref": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the URI to which the request should be redirected",
+    "values": ["http://example.com/resource1", "http://example.com/resource2"],
+    "reference_url": "https://www.iana.org/go/rfc4437",
+    "reference_desc": "RFC 4437: Web Distributed Authoring and Versioning (WebDAV) Redirect Reference Resources"
+  },
+  "Referer": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the address of the previous web page from which a link to the currently requested page was followed",
+    "values": [
+      "http://example.com/previous-page",
+      "http://example.org/another-page"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.1.3: HTTP Semantics"
+  },
+  "Referer-Root": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the root URL of the referring document",
+    "values": ["http://example.com", "https://example.org"],
+    "reference_url": "https://www.w3.org/TR/2007/WD-access-control-20071126/#referer-root",
+    "reference_desc": "Access Control for Cross-site Requests"
+  },
+  "Referrer-Policy": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "The header name does not share the HTTP Referer header's misspelling.",
+    "description": "Specifies the referrer policy that controls how much referrer information should be included with requests",
+    "values": [
+      "no-referrer",
+      "no-referrer-when-downgrade",
+      "origin",
+      "origin-when-cross-origin",
+      "same-origin",
+      "strict-origin",
+      "strict-origin-when-cross-origin",
+      "unsafe-url"
+    ],
+    "reference_url": "https://www.w3.org/TR/referrer-policy/#referrer-policy-header",
+    "reference_desc": "Referrer Policy"
+  },
+  "Refresh": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Instructs the browser to refresh the page after a specified number of seconds",
+    "values": ["5; url=http://example.com", "10; url=https://example.org"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#refresh",
+    "reference_desc": "HTML"
+  },
+  "Repeatability-Client-ID": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies a unique identifier for the client making the request",
+    "values": ["client-id-1234", "client-id-5678"],
+    "reference_url": "https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html",
+    "reference_desc": "Repeatable Requests Version 1.0"
+  },
+  "Repeatability-First-Sent": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the date and time when the request was first sent",
+    "values": ["2023-10-01T12:00:00Z", "2023-10-02T15:30:00Z"],
+    "reference_url": "https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html",
+    "reference_desc": "Repeatable Requests Version 1.0"
+  },
+  "Repeatability-Request-ID": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies a unique identifier for the repeatable request",
+    "values": ["request-id-1234", "request-id-5678"],
+    "reference_url": "https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html",
+    "reference_desc": "Repeatable Requests Version 1.0"
+  },
+  "Repeatability-Result": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the result of processing a repeatable request",
+    "values": ["accepted", "rejected"],
+    "reference_url": "https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html",
+    "reference_desc": "Repeatable Requests Version 1.0"
+  },
+  "Replay-Nonce": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "A unique value that allows the server to detect replay attacks",
+    "values": ["nonce-value1", "nonce-value2"],
+    "reference_url": "https://www.iana.org/go/rfc8555",
+    "reference_desc": "RFC 8555, Section 6.5.1: Automatic Certificate Management Environment (ACME)"
+  },
+  "Reporting-Endpoints": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the endpoints to which reports should be sent",
+    "values": [
+      "{\"default\":\"https://example.com/report\"}",
+      "{\"endpoint\":\"https://example.org/report\"}"
+    ],
+    "reference_url": "https://w3c.github.io/reporting/#header",
+    "reference_desc": "Reporting API"
+  },
+  "Repr-Digest": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides a digest of the representation data",
+    "values": ["SHA-256=abc123", "SHA-512=def456"],
+    "reference_url": "https://www.iana.org/go/rfc9530",
+    "reference_desc": "RFC 9530, Section 3: Digest Fields"
+  },
+  "Retry-After": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates how long the user agent should wait before making a follow-up request",
+    "values": ["120", "Wed, 21 Oct 2015 07:28:00 GMT"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.2.3: HTTP Semantics"
+  },
+  "Safe": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "Indicates that the response is safe to display to the user",
+    "values": ["yes"],
+    "reference_url": "https://www.iana.org/go/rfc2310",
+    "reference_desc": "RFC 2310: The Safe Response Header Field"
+  },
+  "Schedule-Reply": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the scheduling response for a CalDAV request",
+    "values": ["1.0"],
+    "reference_url": "https://www.iana.org/go/rfc6638",
+    "reference_desc": "RFC 6638: Scheduling Extensions to CalDAV"
+  },
+  "Schedule-Tag": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides a tag for scheduling messages in CalDAV",
+    "values": ["tag1", "tag2"],
+    "reference_url": "https://www.iana.org/go/rfc6638",
+    "reference_desc": "RFC 6638: Scheduling Extensions to CalDAV"
+  },
+  "Sec-GPC": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the user's preference regarding privacy",
+    "values": ["1"],
+    "reference_url": "https://privacycg.github.io/gpc-spec/",
+    "reference_desc": "Global Privacy Control (GPC)"
+  },
+  "Sec-Purpose": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "Intended to replace the (not registered) Purpose and x-moz headers.",
+    "description": "Indicates the purpose of the request",
+    "values": ["prefetch", "prerender", "websocket"],
+    "reference_url": "https://fetch.spec.whatwg.org/#sec-purpose-header",
+    "reference_desc": "Fetch"
+  },
+  "Sec-Token-Binding": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the token binding status of the request",
+    "values": ["token-binding-id"],
+    "reference_url": "https://www.iana.org/go/rfc8473",
+    "reference_desc": "RFC 8473: Token Binding over HTTP"
+  },
+  "Sec-WebSocket-Accept": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used in the WebSocket handshake to confirm the server's acceptance of the connection",
+    "values": ["s3pPLMBiTxaQ9kYGzzhZRbK+xOo="],
+    "reference_url": "https://www.iana.org/go/rfc6455",
+    "reference_desc": "RFC 6455: The WebSocket Protocol"
+  },
+  "Sec-WebSocket-Extensions": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the WebSocket extensions that the client wishes to use",
+    "values": ["permessage-deflate", "x-webkit-deflate-frame"],
+    "reference_url": "https://www.iana.org/go/rfc6455",
+    "reference_desc": "RFC 6455: The WebSocket Protocol"
+  },
+  "Sec-WebSocket-Key": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "A base64-encoded value that is used in the WebSocket handshake",
+    "values": ["dGhlIHNhbXBsZSBub25jZQ==", "x3JJHMbDL1EzLkh9GBhXDw=="],
+    "reference_url": "https://www.iana.org/go/rfc6455",
+    "reference_desc": "RFC 6455: The WebSocket Protocol"
+  },
+  "Sec-WebSocket-Protocol": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies one or more protocol-level extensions that the client wishes to use",
+    "values": ["chat", "superchat"],
+    "reference_url": "https://www.iana.org/go/rfc6455",
+    "reference_desc": "RFC 6455: The WebSocket Protocol"
+  },
+  "Sec-WebSocket-Version": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the WebSocket protocol version that the client wishes to use",
+    "values": ["13"],
+    "reference_url": "https://www.iana.org/go/rfc6455",
+    "reference_desc": "RFC 6455: The WebSocket Protocol"
+  },
+  "Security-Scheme": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
+    "description": "Specifies the security scheme used in the request",
+    "values": ["Basic", "Digest"],
+    "reference_url": "https://www.iana.org/go/rfc2660",
+    "reference_desc": "RFC 2660: The Secure HyperText Transfer Protocol"
+  },
+  "Server": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Contains information about the software used by the origin server to handle the request",
+    "values": ["Apache/2.4.1", "nginx/1.14.0"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.2.4: HTTP Semantics"
+  },
+  "Server-Timing": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides timing information from the server",
+    "values": ["db;dur=53", "app;dur=47.2"],
+    "reference_url": "https://www.w3.org/TR/server-timing/",
+    "reference_desc": "Server Timing"
+  },
+  "Set-Cookie": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to send cookies from the server to the user agent",
+    "values": [
+      "sessionId=abc123; Path=/; Secure; HttpOnly",
+      "userId=xyz789; Path=/; Expires=Wed, 21 Oct 2025 07:28:00 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc6265",
+    "reference_desc": "RFC 6265: HTTP State Management Mechanism"
+  },
+  "Set-Cookie2": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "Obsoleted by RFC 6265: HTTP State Management Mechanism",
+    "description": "Used to send cookies from the server to the user agent (obsolete)",
+    "values": [
+      "sessionId=abc123; Version=1; Path=/; Secure; HttpOnly",
+      "userId=xyz789; Version=1; Path=/; Expires=Wed, 21 Oct 2025 07:28:00 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc2965",
+    "reference_desc": "RFC 2965: HTTP State Management Mechanism"
+  },
+  "SetProfile": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Used to set a profile for the user (obsolete)",
+    "values": ["profile1", "profile2"],
+    "reference_url": "https://www.w3.org/TR/NOTE-OPS-OverHTTP",
+    "reference_desc": "Implementation of OPS Over HTTP"
+  },
+  "Signature": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides a digital signature for the HTTP message",
+    "values": [
+      "keyId=\"test-key-a\",algorithm=\"rsa-sha256\",headers=\"(request-target) host date digest content-length\",signature=\"Base64(RSA-SHA256(signing string))\"",
+      "keyId=\"test-key-b\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date digest content-length\",signature=\"Base64(HMAC-SHA256(signing string))\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9421",
+    "reference_desc": "RFC 9421, Section 4.2: HTTP Message Signatures"
+  },
+  "Signature-Input": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides the input parameters for generating an HTTP message signature",
+    "values": [
+      "sig1=();created=1618884473;keyid=\"test-key-a\"",
+      "sig2=();created=1618884473;keyid=\"test-key-b\""
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9421",
+    "reference_desc": "RFC 9421, Section 4.1: HTTP Message Signatures"
+  },
+  "SLUG": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Suggests a title for the resource being created",
+    "values": ["example-title", "another-title"],
+    "reference_url": "https://www.iana.org/go/rfc5023",
+    "reference_desc": "RFC 5023: The Atom Publishing Protocol"
+  },
+  "SoapAction": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the intent of the SOAP HTTP request",
+    "values": [
+      "\"http://example.com/action\"",
+      "\"http://example.org/another-action\""
+    ],
+    "reference_url": "https://www.w3.org/TR/2000/NOTE-SOAP-20000508",
+    "reference_desc": "Simple Object Access Protocol (SOAP) 1.1"
+  },
+  "Status-URI": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides a URI to check the status of a long-running operation",
+    "values": [
+      "http://example.com/status",
+      "http://example.org/another-status"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc2518",
+    "reference_desc": "RFC 2518: HTTP Extensions for Distributed Authoring -- WEBDAV"
+  },
+  "Strict-Transport-Security": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Enforces secure (HTTP over SSL/TLS) connections to the server",
+    "values": [
+      "max-age=31536000; includeSubDomains",
+      "max-age=63072000; preload"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc6797",
+    "reference_desc": "RFC 6797: HTTP Strict Transport Security (HSTS)"
+  },
+  "Sunset": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the date and time after which the resource is expected to become unavailable",
+    "values": [
+      "Wed, 21 Oct 2025 07:28:00 GMT",
+      "Tue, 15 Nov 2025 12:45:26 GMT"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc8594",
+    "reference_desc": "RFC 8594: The Sunset HTTP Header Field"
+  },
+  "Surrogate-Capability": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the capabilities of a surrogate (intermediary) server",
+    "values": ["key1=\"value1\"", "key2=\"value2\""],
+    "reference_url": "https://www.w3.org/TR/edge-arch",
+    "reference_desc": "Edge Architecture Specification"
+  },
+  "Surrogate-Control": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Controls the behavior of a surrogate (intermediary) server",
+    "values": ["max-age=3600", "no-store"],
+    "reference_url": "https://www.w3.org/TR/edge-arch",
+    "reference_desc": "Edge Architecture Specification"
+  },
+  "TCN": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the outcome of transparent content negotiation for the request",
+    "values": ["list", "choice", "adhoc"],
+    "reference_url": "https://www.iana.org/go/rfc2295",
+    "reference_desc": "RFC 2295: Transparent Content Negotiation in HTTP"
+  },
+  "TE": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the transfer encodings the user agent is willing to accept",
+    "values": ["trailers", "chunked"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.1.4: HTTP Semantics"
+  },
+  "Timeout": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the amount of time the client is willing to wait for a response",
+    "values": ["Second-120", "Second-300"],
+    "reference_url": "https://www.iana.org/go/rfc4918",
+    "reference_desc": "RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+  },
+  "Timing-Allow-Origin": {
+    "status": "provisional",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies origins that are allowed to see values of attributes retrieved via the Resource Timing API",
+    "values": ["*", "http://example.com"],
+    "reference_url": "https://www.w3.org/TR/resource-timing-1/#timing-allow-origin",
+    "reference_desc": "Resource Timing Level 1"
+  },
+  "Topic": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the topic of the push message",
+    "values": ["news", "updates"],
+    "reference_url": "https://www.iana.org/go/rfc8030",
+    "reference_desc": "RFC 8030, Section 5.4: Generic Event Delivery Using HTTP Push"
+  },
+  "Traceparent": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Carries the tracing information in a distributed tracing system",
+    "values": ["00-4bf92f3577b34da6a3ce929d0e0e4736-00f067aa0ba902b7-01"],
+    "reference_url": "https://www.w3.org/TR/trace-context/#traceparent-header",
+    "reference_desc": "Trace Context"
+  },
+  "Tracestate": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides additional vendor-specific trace identification information",
+    "values": ["congo=t61rcWkgMzE", "rojo=00f067aa0ba902b7"],
+    "reference_url": "https://www.w3.org/TR/trace-context/#tracestate-header",
+    "reference_desc": "Trace Context"
+  },
+  "Trailer": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates that the given set of header fields is present in the trailer of a message encoded with chunked transfer coding",
+    "values": ["Expires", "Content-MD5"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 6.6.2: HTTP Semantics"
+  },
+  "Transfer-Encoding": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the form of encoding used to safely transfer the payload body to the user",
+    "values": ["chunked", "compress", "deflate", "gzip"],
+    "reference_url": "https://www.iana.org/go/rfc9112",
+    "reference_desc": "RFC9112, Section 6.1: HTTP Semantics"
+  },
+  "TTL": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the time-to-live for the push message",
+    "values": ["60", "3600"],
+    "reference_url": "https://www.iana.org/go/rfc8030",
+    "reference_desc": "RFC 8030, Section 5.2: Generic Event Delivery Using HTTP Push"
+  },
+  "Upgrade": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies additional protocols that the server supports",
+    "values": ["HTTP/2.0", "websocket"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 7.8: HTTP Semantics"
+  },
+  "Urgency": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the urgency of the push message",
+    "values": ["very-low", "low", "normal", "high"],
+    "reference_url": "https://www.iana.org/go/rfc8030",
+    "reference_desc": "RFC 8030, Section 5.3: Generic Event Delivery Using HTTP Push"
+  },
+  "URI": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Specifies the URI of the resource",
+    "values": [
+      "http://example.com/resource",
+      "https://example.org/another-resource"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc2068",
+    "reference_desc": "RFC 2068: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  "User-Agent": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Contains information about the user agent originating the request",
+    "values": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+    ],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 10.1.5: HTTP Semantics"
+  },
+  "Variant-Vary": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the dimensions over which the response varies",
+    "values": ["accept-language", "accept-encoding"],
+    "reference_url": "https://www.iana.org/go/rfc2295",
+    "reference_desc": "RFC 2295: Transparent Content Negotiation in HTTP"
+  },
+  "Vary": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the set of request headers that determine the cache key",
+    "values": ["Accept-Encoding", "User-Agent"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 12.5.5: HTTP Semantics"
+  },
+  "Via": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the intermediate protocols and recipients between the user agent and the server",
+    "values": ["1.1 example.com", "1.0 proxy.example.com"],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 7.6.3: HTTP Semantics"
+  },
+  "Want-Content-Digest": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the client's preference for receiving a content digest in the response",
+    "values": ["sha-256", "sha-512"],
+    "reference_url": "https://www.iana.org/go/rfc9530",
+    "reference_desc": "RFC 9530, Section 4: Digest Fields"
+  },
+  "Want-Digest": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "Obsoleted by RFC 9530, Section 1.3: Digest Fields",
+    "description": "Indicates the client's preference for receiving an instance digest in the response",
+    "values": ["md5", "sha-1"],
+    "reference_url": "https://www.iana.org/go/rfc3230",
+    "reference_desc": "RFC 3230: Instance Digests in HTTP"
+  },
+  "Want-Repr-Digest": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the client's preference for receiving a representation digest in the response",
+    "values": ["sha-256", "sha-512"],
+    "reference_url": "https://www.iana.org/go/rfc9530",
+    "reference_desc": "RFC 9530, Section 4: Digest Fields"
+  },
+  "Warning": {
+    "status": "obsoleted",
+    "structured type": "",
+    "comments": "",
+    "description": "Provides additional information about the status or transformation of a HTTP message",
+    "values": ["110 Response is stale", "214 Transformation applied"],
+    "reference_url": "https://www.iana.org/go/rfc9111",
+    "reference_desc": "RFC9111, Section 5.5: HTTP Caching"
+  },
+  "WWW-Authenticate": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates the authentication method that should be used to access a resource",
+    "values": ["Basic realm=\"example\"", "Bearer realm=\"example\""],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 11.6.1: HTTP Semantics"
+  },
+  "X-Content-Type-Options": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates that the MIME types advertised in the Content-Type headers should not be changed and be followed",
+    "values": ["nosniff"],
+    "reference_url": "https://fetch.spec.whatwg.org/#x-content-type-options-header",
+    "reference_desc": "Fetch"
+  },
+  "X-Frame-Options": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "",
+    "description": "Indicates whether a browser should be allowed to render a page in a <frame>, <iframe>, <embed>, or <object>",
+    "values": ["DENY", "SAMEORIGIN"],
+    "reference_url": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#x-frame-options",
+    "reference_desc": "HTML"
+  },
+  "*": {
+    "status": "permanent",
+    "structured type": "",
+    "comments": "(reserved)",
+    "description": "Reserved for future use",
+    "values": [],
+    "reference_url": "https://www.iana.org/go/rfc9110",
+    "reference_desc": "RFC9110, Section 12.5.5: HTTP Semantics"
+  }
+}
