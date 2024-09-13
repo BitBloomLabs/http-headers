@@ -1,16 +1,16 @@
 {
   "A-IM": {
+    "status": "permanent",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable instance-manipulations for the request",
     "values": ["feed", "compress"],
-    "status": "permanent",
-    "structured type": "",
     "reference_url": "https://www.iana.org/go/rfc3229",
     "reference_desc": "RFC 3229: Delta encoding in HTTP"
   },
   "Accept": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Types that are acceptable for the response",
     "values": [
@@ -24,7 +24,7 @@
   },
   "Accept-Additions": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable additions for the request",
     "values": ["cream", "sugar"],
@@ -33,7 +33,7 @@
   },
   "Accept-CH": {
     "status": "permanent",
-    "structured type": "List",
+    "structured_type": "List",
     "comments": "",
     "description": "Accept-CH HTTP response header field",
     "values": ["Viewport-Width", "Width", "DPR", "Downlink"],
@@ -42,7 +42,7 @@
   },
   "Accept-Charset": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Character sets that are acceptable",
     "values": ["utf-8", "iso-8859-1", "utf-16", "utf-32"],
@@ -51,7 +51,7 @@
   },
   "Accept-Datetime": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable version in time, request a past versoin of the resource",
     "values": [
@@ -63,7 +63,7 @@
   },
   "Accept-Encoding": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable encodings for the response",
     "values": ["gzip", "deflate", "br", "compress"],
@@ -72,7 +72,7 @@
   },
   "Accept-Features": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable features for the request",
     "values": ["xml", "json"],
@@ -81,7 +81,7 @@
   },
   "Accept-Language": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable languages for the response",
     "values": ["en-US", "en-GB", "en-CA", "en-AU"],
@@ -90,7 +90,7 @@
   },
   "Accept-Patch": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable patch document formats for the request",
     "values": ["application/json-patch+json", "application/merge-patch+json"],
@@ -99,7 +99,7 @@
   },
   "Accept-Post": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable post document formats for the request",
     "values": ["text/turtle", "application/ld+json"],
@@ -108,7 +108,7 @@
   },
   "Accept-Ranges": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "What partial content range types this server supports",
     "values": ["bytes", "none"],
@@ -117,7 +117,7 @@
   },
   "Accept-Signature": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Acceptable signature algorithms for the request",
     "values": ["rsa-sha256", "hmac-sha256"],
@@ -126,7 +126,7 @@
   },
   "Access-Control": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Access control features for the request",
     "values": ["read", "write"],
@@ -135,7 +135,7 @@
   },
   "Access-Control-Allow-Credentials": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates whether the response to the request can be exposed when the credentials flag is true",
     "values": ["true", "false"],
@@ -144,7 +144,7 @@
   },
   "Access-Control-Allow-Headers": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request",
     "values": ["X-Custom-Header", "X-Requested-With", "Content-Type"],
@@ -153,7 +153,7 @@
   },
   "Access-Control-Allow-Methods": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used in response to a preflight request to indicate which HTTP methods can be used when making the actual request",
     "values": ["GET", "POST", "PUT", "DELETE"],
@@ -162,7 +162,7 @@
   },
   "Access-Control-Allow-Origin": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used in response to a preflight request to indicate which origin sites are allowed to make the actual request",
     "values": ["*", "https://example.com", "https://example.org"],
@@ -171,7 +171,7 @@
   },
   "Access-Control-Expose-Headers": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates which headers can be exposed as part of the response by listing their names",
     "values": ["Content-Length", "Content-Type", "Date"],
@@ -180,7 +180,7 @@
   },
   "Access-Control-Max-Age": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates how long the results of a preflight request can be cached",
     "values": ["600", "86400"],
@@ -189,7 +189,7 @@
   },
   "Access-Control-Request-Headers": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used when issuing a preflight request to let the server know what HTTP headers will be used when the actual request is made. Used in a CORS request.",
     "values": ["X-Custom-Header", "X-Requested-With", "Content-Type"],
@@ -198,7 +198,7 @@
   },
   "Access-Control-Request-Method": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used when issuing a preflight request to let the server know what HTTP method will be used when the actual request is made. Used in a CORS request.",
     "values": ["GET", "POST", "PUT", "DELETE"],
@@ -207,7 +207,7 @@
   },
   "Age": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "The age the object has been in a proxy cache in seconds",
     "values": ["120", "3600"],
@@ -216,7 +216,7 @@
   },
   "Allow": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Valid methods for a specified resource",
     "values": ["GET", "POST", "PUT", "DELETE"],
@@ -225,7 +225,7 @@
   },
   "ALPN": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Application-Layer Protocol Negotiation",
     "values": ["h2", "http/1.1"],
@@ -234,7 +234,7 @@
   },
   "Alt-Svc": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Alternative services to the origin server",
     "values": ["h2=\":8000\"", "h2=\":8001\""],
@@ -243,7 +243,7 @@
   },
   "Alt-Used": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "A server can send this header to indicate which alternative service was used",
     "values": ["h2=\":8000\"", "h2=\":8001\""],
@@ -252,7 +252,7 @@
   },
   "Alternates": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Alternates for the request",
     "values": ["text/html", "application/xml"],
@@ -261,7 +261,7 @@
   },
   "AMP-Cache-Transform": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "AMP Cache Transform",
     "values": ["google", "cdn"],
@@ -270,7 +270,7 @@
   },
   "Apply-To-Redirect-Ref": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Apply to Redirect Reference",
     "values": ["T", "F"],
@@ -279,7 +279,7 @@
   },
   "Authentication-Control": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Authentication Control",
     "values": ["no-cache", "no-store"],
@@ -288,7 +288,7 @@
   },
   "Authentication-Info": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Authentication Information",
     "values": ["qop=auth", "rspauth=abc123"],
@@ -297,7 +297,7 @@
   },
   "Authorization": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Authorization header",
     "values": ["Bearer", "Basic"],
@@ -306,7 +306,7 @@
   },
   "C-Ext": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "C-Ext header",
     "values": ["extension1", "extension2"],
@@ -315,7 +315,7 @@
   },
   "C-Man": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "C-Man header",
     "values": ["mandatory1", "mandatory2"],
@@ -324,7 +324,7 @@
   },
   "C-Opt": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "C-Opt header",
     "values": ["optional1", "optional2"],
@@ -333,7 +333,7 @@
   },
   "C-PEP": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "C-PEP header",
     "values": ["pep1", "pep2"],
@@ -342,7 +342,7 @@
   },
   "C-PEP-Info": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "C-PEP-Info header",
     "values": ["info1", "info2"],
@@ -351,7 +351,7 @@
   },
   "Cache-Control": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Cache-Control header",
     "values": ["no-cache", "no-store", "max-age=3600"],
@@ -360,7 +360,7 @@
   },
   "Cache-Status": {
     "status": "permanent",
-    "structured type": "List",
+    "structured_type": "List",
     "comments": "",
     "description": "Cache-Status header",
     "values": ["hit", "miss", "revalidated"],
@@ -369,7 +369,7 @@
   },
   "Cal-Managed-ID": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Cal-Managed-ID header",
     "values": ["urn:uuid:1234", "urn:uuid:5678"],
@@ -378,7 +378,7 @@
   },
   "CalDAV-Timezones": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CalDAV-Timezones header",
     "values": ["America/New_York", "Europe/London"],
@@ -387,7 +387,7 @@
   },
   "Capsule-Protocol": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Capsule-Protocol header",
     "values": ["1", "2"],
@@ -396,7 +396,7 @@
   },
   "CDN-Cache-Control": {
     "status": "permanent",
-    "structured type": "Dictionary",
+    "structured_type": "Dictionary",
     "comments": "Cache directives targeted at content delivery networks",
     "description": "CDN-Cache-Control header",
     "values": ["max-age=3600", "stale-while-revalidate=60"],
@@ -405,7 +405,7 @@
   },
   "CDN-Loop": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CDN-Loop header",
     "values": ["cdn1", "cdn2"],
@@ -414,7 +414,7 @@
   },
   "Cert-Not-After": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Cert-Not-After header",
     "values": ["2023-12-31T23:59:59Z", "2024-12-31T23:59:59Z"],
@@ -423,7 +423,7 @@
   },
   "Cert-Not-Before": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Cert-Not-Before header",
     "values": ["2023-01-01T00:00:00Z", "2024-01-01T00:00:00Z"],
@@ -432,7 +432,7 @@
   },
   "Clear-Site-Data": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Clear-Site-Data header",
     "values": ["\"cache\"", "\"cookies\""],
@@ -441,7 +441,7 @@
   },
   "Client-Cert": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Client-Cert header",
     "values": [
@@ -453,7 +453,7 @@
   },
   "Client-Cert-Chain": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Client-Cert-Chain header",
     "values": [
@@ -465,7 +465,7 @@
   },
   "Close": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "(reserved)",
     "description": "Close header",
     "values": ["close"],
@@ -474,7 +474,7 @@
   },
   "CMCD-Object": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CMCD-Object header",
     "values": ["ot=v", "ot=a"],
@@ -483,7 +483,7 @@
   },
   "CMCD-Request": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CMCD-Request header",
     "values": ["br=5000", "d=1000"],
@@ -492,7 +492,7 @@
   },
   "CMCD-Session": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CMCD-Session header",
     "values": ["sid=abc123", "cid=xyz789"],
@@ -501,7 +501,7 @@
   },
   "CMCD-Status": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CMCD-Status header",
     "values": ["st=ok", "st=error"],
@@ -510,7 +510,7 @@
   },
   "CMSD-Dynamic": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CMSD-Dynamic header",
     "values": ["d=1000", "br=5000"],
@@ -519,7 +519,7 @@
   },
   "CMSD-Static": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CMSD-Static header",
     "values": ["v=1.0", "v=2.0"],
@@ -528,7 +528,7 @@
   },
   "Configuration-Context": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Configuration-Context header",
     "values": ["context1", "context2"],
@@ -537,7 +537,7 @@
   },
   "Connection": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Connection header",
     "values": ["close", "keep-alive"],
@@ -546,7 +546,7 @@
   },
   "Content-Base": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsoleted by RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1",
     "description": "Content-Base header",
     "values": ["http://example.com/base1", "http://example.com/base2"],
@@ -555,7 +555,7 @@
   },
   "Content-Digest": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Digest header",
     "values": ["sha-256=abc123", "sha-512=xyz789"],
@@ -564,7 +564,7 @@
   },
   "Content-Disposition": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Disposition header",
     "values": ["inline", "attachment"],
@@ -573,7 +573,7 @@
   },
   "Content-Encoding": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Encoding header",
     "values": ["gzip", "compress", "deflate", "br"],
@@ -582,7 +582,7 @@
   },
   "Content-ID": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-ID header",
     "values": ["<1234>", "<5678>"],
@@ -591,7 +591,7 @@
   },
   "Content-Language": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Language header",
     "values": ["en", "fr", "de"],
@@ -600,7 +600,7 @@
   },
   "Content-Length": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Length header",
     "values": ["1234", "5678"],
@@ -609,7 +609,7 @@
   },
   "Content-Location": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Location header",
     "values": ["http://example.com/resource1", "http://example.com/resource2"],
@@ -618,7 +618,7 @@
   },
   "Content-MD5": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsoleted by RFC 7231, Appendix B: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
     "description": "Content-MD5 header",
     "values": ["Q2hlY2sgSW50ZWdyaXR5IQ==", "d41d8cd98f00b204e9800998ecf8427e"],
@@ -627,7 +627,7 @@
   },
   "Content-Range": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Range header",
     "values": ["bytes 200-1000/67589", "bytes 200-1000/*"],
@@ -636,7 +636,7 @@
   },
   "Content-Script-Type": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Script-Type header",
     "values": ["text/javascript", "application/javascript"],
@@ -645,7 +645,7 @@
   },
   "Content-Security-Policy": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Security-Policy header",
     "values": ["default-src 'self'", "script-src 'self' 'unsafe-inline'"],
@@ -654,7 +654,7 @@
   },
   "Content-Security-Policy-Report-Only": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Security-Policy-Report-Only header",
     "values": ["default-src 'self'", "script-src 'self' 'unsafe-inline'"],
@@ -663,7 +663,7 @@
   },
   "Content-Style-Type": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Style-Type header",
     "values": ["text/css"],
@@ -672,7 +672,7 @@
   },
   "Content-Type": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Type header",
     "values": ["text/html", "application/json"],
@@ -681,7 +681,7 @@
   },
   "Content-Version": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Content-Version header",
     "values": ["1.0", "2.0"],
@@ -690,7 +690,7 @@
   },
   "Cookie": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Cookie header",
     "values": ["sessionId=abc123", "userId=789xyz"],
@@ -699,7 +699,7 @@
   },
   "Cookie2": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsoleted by  RFC 6265: HTTP State Management Mechanism",
     "description": "Cookie2 header",
     "values": ["$Version=1; sessionId=abc123", "$Version=1; userId=789xyz"],
@@ -708,7 +708,7 @@
   },
   "Cross-Origin-Embedder-Policy": {
     "status": "permanent",
-    "structured type": "Item",
+    "structured_type": "Item",
     "comments": "",
     "description": "Cross-Origin-Embedder-Policy header",
     "values": ["require-corp", "unsafe-none"],
@@ -717,7 +717,7 @@
   },
   "Cross-Origin-Embedder-Policy-Report-Only": {
     "status": "permanent",
-    "structured type": "Item",
+    "structured_type": "Item",
     "comments": "",
     "description": "Cross-Origin-Embedder-Policy-Report-Only header",
     "values": ["require-corp", "unsafe-none"],
@@ -726,7 +726,7 @@
   },
   "Cross-Origin-Opener-Policy": {
     "status": "permanent",
-    "structured type": "Item",
+    "structured_type": "Item",
     "comments": "",
     "description": "Cross-Origin-Opener-Policy header",
     "values": ["same-origin", "same-origin-allow-popups", "unsafe-none"],
@@ -735,7 +735,7 @@
   },
   "Cross-Origin-Opener-Policy-Report-Only": {
     "status": "permanent",
-    "structured type": "Item",
+    "structured_type": "Item",
     "comments": "",
     "description": "Cross-Origin-Opener-Policy-Report-Only header",
     "values": ["same-origin", "same-origin-allow-popups", "unsafe-none"],
@@ -744,7 +744,7 @@
   },
   "Cross-Origin-Resource-Policy": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Cross-Origin-Resource-Policy header",
     "values": ["same-origin", "same-site", "cross-origin"],
@@ -753,7 +753,7 @@
   },
   "CTA-Common-Access-Token": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "CTA Common Access Token header",
     "values": ["token123", "token456"],
@@ -762,7 +762,7 @@
   },
   "DASL": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "DASL header",
     "values": ["<DAV:basicsearch>", "<DAV:advancedsearch>"],
@@ -771,7 +771,7 @@
   },
   "Date": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Date header",
     "values": [
@@ -783,7 +783,7 @@
   },
   "DAV": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "DAV header",
     "values": ["1", "2", "3"],
@@ -792,7 +792,7 @@
   },
   "Default-Style": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Default-Style header",
     "values": ["style1", "style2"],
@@ -801,7 +801,7 @@
   },
   "Delta-Base": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Delta-Base header",
     "values": ["http://example.com/resource1", "http://example.com/resource2"],
@@ -810,7 +810,7 @@
   },
   "Depth": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Depth header",
     "values": ["0", "1", "infinity"],
@@ -819,7 +819,7 @@
   },
   "Derived-From": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Derived-From header",
     "values": [
@@ -831,7 +831,7 @@
   },
   "Destination": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Destination header",
     "values": [
@@ -843,7 +843,7 @@
   },
   "Differential-ID": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Differential-ID header",
     "values": ["12345", "67890"],
@@ -852,7 +852,7 @@
   },
   "Digest": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsoleted by RFC 9530, Section 1.3: Digest Fields",
     "description": "Digest header",
     "values": ["SHA-256=abc123", "SHA-512=def456"],
@@ -861,7 +861,7 @@
   },
   "DPoP": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "DPoP header",
     "values": [
@@ -873,7 +873,7 @@
   },
   "DPoP-Nonce": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "DPoP-Nonce header",
     "values": ["nonce-value1", "nonce-value2"],
@@ -882,7 +882,7 @@
   },
   "Early-Data": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Early-Data header",
     "values": ["1"],
@@ -891,7 +891,7 @@
   },
   "EDIINT-Features": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "EDIINT-Features header",
     "values": ["multiple-attachments", "compression"],
@@ -900,7 +900,7 @@
   },
   "ETag": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "ETag header",
     "values": ["\"123456789\"", "W/\"987654321\""],
@@ -909,7 +909,7 @@
   },
   "Expect": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Expect header",
     "values": ["100-continue"],
@@ -918,7 +918,7 @@
   },
   "Expect-CT": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsoleted by https://www6.ietf.org/iesg/minutes/2024/minutes-2024-01-18.txt IESG https://mailarchive.ietf.org/arch/msg/httpbisa/XpAWZsIre5WAte3lXGTh6A77sok HTTPBIS",
     "description": "Expect-CT header",
     "values": [
@@ -931,7 +931,7 @@
   },
   "Expires": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Expires header",
     "values": [
@@ -943,7 +943,7 @@
   },
   "Ext": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "Ext header",
     "values": ["extension1", "extension2"],
@@ -952,7 +952,7 @@
   },
   "Forwarded": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Forwarded header",
     "values": ["for='_gazonk'", "for='_gazonk';by='_gauss'"],
@@ -961,7 +961,7 @@
   },
   "From": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "The email address of the user making the request",
     "values": ["user@example.com"],
@@ -970,7 +970,7 @@
   },
   "GetProfile": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Request a profile of the user",
     "values": ["profile1", "profile2"],
@@ -979,7 +979,7 @@
   },
   "Hobareg": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "HOBA registration header",
     "values": ["hoba1", "hoba2"],
@@ -988,7 +988,7 @@
   },
   "Host": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the domain name of the server and the TCP port number on which the server is listening",
     "values": ["example.com", "example.com:8080"],
@@ -997,7 +997,7 @@
   },
   "HTTP2-Settings": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsolete; see Section 11.1 of RFC9113",
     "description": "Used to convey settings to the server in HTTP/2",
     "values": [
@@ -1009,7 +1009,7 @@
   },
   "If": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used with WebDAV methods to make the request conditional",
     "values": ["<locktoken:write1>", "<locktoken:write2>"],
@@ -1018,7 +1018,7 @@
   },
   "If-Match": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Makes the request conditional on the current ETag value of the target resource matching any of the listed ETags",
     "values": ["\"etag1\"", "\"etag2\""],
@@ -1027,7 +1027,7 @@
   },
   "If-Modified-Since": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Makes the request conditional on the target resource having been modified since the specified date",
     "values": [
@@ -1039,7 +1039,7 @@
   },
   "If-None-Match": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Makes the request conditional on the target resource's ETag not matching any of the listed ETags",
     "values": ["\"etag1\"", "\"etag2\""],
@@ -1048,7 +1048,7 @@
   },
   "If-Range": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Makes the request conditional on the target resource's ETag or Last-Modified date matching the given value",
     "values": ["\"etag1\"", "Wed, 21 Oct 2015 07:28:00 GMT"],
@@ -1057,7 +1057,7 @@
   },
   "If-Schedule-Tag-Match": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Makes the request conditional on the target resource's schedule tag matching the given value",
     "values": ["\"schedule-tag1\"", "\"schedule-tag2\""],
@@ -1066,7 +1066,7 @@
   },
   "If-Unmodified-Since": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Makes the request conditional on the target resource not having been modified since the specified date",
     "values": [
@@ -1078,7 +1078,7 @@
   },
   "IM": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies instance manipulations (delta encoding) that are acceptable in the response",
     "values": ["\"vcdiff\"", "\"gzip\""],
@@ -1087,7 +1087,7 @@
   },
   "Include-Referred-Token-Binding-ID": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates that the referred token binding ID should be included in the request",
     "values": ["true", "false"],
@@ -1096,7 +1096,7 @@
   },
   "Isolation": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the isolation level for the request",
     "values": ["snapshot", "read-committed"],
@@ -1105,7 +1105,7 @@
   },
   "Keep-Alive": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Controls the persistence of the connection",
     "values": ["timeout=5", "max=1000"],
@@ -1114,7 +1114,7 @@
   },
   "Label": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies a label for a versioned resource",
     "values": ["label1", "label2"],
@@ -1123,7 +1123,7 @@
   },
   "Last-Event-ID": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Contains the ID of the last event received",
     "values": ["event-id-1234", "event-id-5678"],
@@ -1132,7 +1132,7 @@
   },
   "Last-Modified": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the date and time at which the resource was last modified",
     "values": [
@@ -1144,7 +1144,7 @@
   },
   "Link": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides a means for serializing one or more links in HTTP headers",
     "values": [
@@ -1156,7 +1156,7 @@
   },
   "Link-Template": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Defines a link template that can be used to generate links",
     "values": [
@@ -1168,7 +1168,7 @@
   },
   "Location": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the URL to redirect a page to or where a newly created resource is located",
     "values": [
@@ -1180,7 +1180,7 @@
   },
   "Lock-Token": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Identifies a particular lock on a resource",
     "values": [
@@ -1192,7 +1192,7 @@
   },
   "Man": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "Specifies mandatory extensions for the request",
     "values": [
@@ -1204,7 +1204,7 @@
   },
   "Max-Forwards": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the maximum number of times a request can be forwarded by proxies",
     "values": ["10", "20"],
@@ -1213,7 +1213,7 @@
   },
   "Memento-Datetime": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the datetime of the original resource that the Memento represents",
     "values": [
@@ -1225,7 +1225,7 @@
   },
   "Meter": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used for simple hit-metering and usage-limiting",
     "values": ["hits=100", "limit=1000"],
@@ -1234,7 +1234,7 @@
   },
   "Method-Check": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to check if a method is allowed for cross-site requests",
     "values": ["GET", "POST"],
@@ -1243,7 +1243,7 @@
   },
   "Method-Check-Expires": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the expiration time for the method check",
     "values": [
@@ -1255,7 +1255,7 @@
   },
   "MIME-Version": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the version of the MIME protocol used",
     "values": ["1.0", "1.1"],
@@ -1264,7 +1264,7 @@
   },
   "Negotiate": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to indicate that the client supports transparent content negotiation",
     "values": ["trans", "negotiate"],
@@ -1273,7 +1273,7 @@
   },
   "NEL": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Network Error Logging header used to configure network error reporting",
     "values": [
@@ -1284,7 +1284,7 @@
   },
   "OData-EntityId": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "OData header used to specify the entity ID",
     "values": [
@@ -1296,7 +1296,7 @@
   },
   "OData-Isolation": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "OData header used to specify the isolation level",
     "values": ["snapshot"],
@@ -1305,7 +1305,7 @@
   },
   "OData-MaxVersion": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "OData header used to specify the maximum OData version",
     "values": ["4.0", "4.01"],
@@ -1314,7 +1314,7 @@
   },
   "OData-Version": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "OData header used to specify the OData version",
     "values": ["4.0", "4.01"],
@@ -1323,7 +1323,7 @@
   },
   "Opt": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "Specifies optional extensions for the request",
     "values": [
@@ -1335,7 +1335,7 @@
   },
   "Optional-WWW-Authenticate": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides optional authentication challenges that the client may use",
     "values": ["Basic realm=\"example\"", "Bearer realm=\"example\""],
@@ -1344,7 +1344,7 @@
   },
   "Ordering-Type": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the ordering semantics for a WebDAV collection",
     "values": ["unordered", "ordered"],
@@ -1353,7 +1353,7 @@
   },
   "Origin": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the origin(s) that are permitted to access the resource",
     "values": ["http://example.com", "https://example.org"],
@@ -1362,7 +1362,7 @@
   },
   "Origin-Agent-Cluster": {
     "status": "permanent",
-    "structured type": "Item",
+    "structured_type": "Item",
     "comments": "",
     "description": "Indicates whether the origin should be isolated in a separate agent cluster",
     "values": ["?1", "?0"],
@@ -1371,7 +1371,7 @@
   },
   "OSCORE": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the use of Object Security for Constrained RESTful Environments (OSCORE)",
     "values": ["example-oscore-value1", "example-oscore-value2"],
@@ -1380,7 +1380,7 @@
   },
   "OSLC-Core-Version": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the version of the OSLC Core specification being used",
     "values": ["3.0", "2.0"],
@@ -1389,7 +1389,7 @@
   },
   "Overwrite": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies whether the destination resource should be overwritten",
     "values": ["T", "F"],
@@ -1398,7 +1398,7 @@
   },
   "P3P": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides a mechanism for websites to declare their intended use of information they collect about browsing users",
     "values": [
@@ -1409,7 +1409,7 @@
   },
   "PEP": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the use of HTTP extensions",
     "values": [
@@ -1421,7 +1421,7 @@
   },
   "PEP-Info": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides additional information about the HTTP extensions used",
     "values": [
@@ -1433,7 +1433,7 @@
   },
   "Permissions-Policy": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Controls which features and APIs can be used in the browser",
     "values": ["geolocation=(self)", "camera=(self)"],
@@ -1442,7 +1442,7 @@
   },
   "PICS-Label": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides a mechanism for websites to label their content for content filtering",
     "values": [
@@ -1453,7 +1453,7 @@
   },
   "Ping-From": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the origin of the ping request",
     "values": ["http://example.com", "https://example.org"],
@@ -1462,7 +1462,7 @@
   },
   "Ping-To": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the destination of the ping request",
     "values": ["http://example.com/ping", "https://example.org/ping"],
@@ -1471,7 +1471,7 @@
   },
   "Position": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the position of a member in an ordered collection",
     "values": ["before", "after"],
@@ -1480,7 +1480,7 @@
   },
   "Pragma": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used for backwards compatibility with HTTP/1.0 caches",
     "values": ["no-cache"],
@@ -1489,7 +1489,7 @@
   },
   "Prefer": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the client's preferred server behavior",
     "values": ["return=representation", "respond-async"],
@@ -1498,7 +1498,7 @@
   },
   "Preference-Applied": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates which preferences were applied to the request",
     "values": ["return=representation", "respond-async"],
@@ -1507,7 +1507,7 @@
   },
   "Priority": {
     "status": "permanent",
-    "structured type": "Dictionary",
+    "structured_type": "Dictionary",
     "comments": "",
     "description": "Specifies the priority of the HTTP request",
     "values": ["urgency=1, progressive", "urgency=2, background"],
@@ -1516,7 +1516,7 @@
   },
   "ProfileObject": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to request a profile of the user",
     "values": ["profile1", "profile2"],
@@ -1525,7 +1525,7 @@
   },
   "Protocol": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the protocol used",
     "values": ["protocol1", "protocol2"],
@@ -1534,7 +1534,7 @@
   },
   "Protocol-Info": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides additional information about the protocol",
     "values": ["info1", "info2"],
@@ -1543,7 +1543,7 @@
   },
   "Protocol-Query": {
     "status": "deprecated",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to query the protocol",
     "values": ["query1", "query2"],
@@ -1552,7 +1552,7 @@
   },
   "Protocol-Request": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to request a specific protocol",
     "values": ["request1", "request2"],
@@ -1561,7 +1561,7 @@
   },
   "Proxy-Authenticate": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the authentication method that should be used to access a resource behind a proxy server",
     "values": [
@@ -1573,7 +1573,7 @@
   },
   "Proxy-Authentication-Info": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Contains information about the authentication status after a successful proxy authentication",
     "values": [
@@ -1585,7 +1585,7 @@
   },
   "Proxy-Authorization": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Contains the credentials to authenticate a user agent with a proxy server",
     "values": [
@@ -1597,7 +1597,7 @@
   },
   "Proxy-Features": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to describe the features supported by a proxy",
     "values": ["feature1", "feature2"],
@@ -1606,7 +1606,7 @@
   },
   "Proxy-Instruction": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to provide instructions to a proxy",
     "values": ["instruction1", "instruction2"],
@@ -1615,7 +1615,7 @@
   },
   "Proxy-Status": {
     "status": "permanent",
-    "structured type": "List",
+    "structured_type": "List",
     "comments": "",
     "description": "Provides information about the status of a request as it passes through a proxy",
     "values": ["error", "success"],
@@ -1624,7 +1624,7 @@
   },
   "Public": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates that the response is public and can be cached by any cache",
     "values": ["public"],
@@ -1633,7 +1633,7 @@
   },
   "Public-Key-Pins": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Allows web host operators to instruct user agents to remember (pin) the hosts' cryptographic identities for a given period of time",
     "values": [
@@ -1645,7 +1645,7 @@
   },
   "Public-Key-Pins-Report-Only": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Allows web host operators to instruct user agents to remember (pin) the hosts' cryptographic identities for a given period of time, but only report violations",
     "values": [
@@ -1657,7 +1657,7 @@
   },
   "Range": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the part of a document that the server should return",
     "values": ["bytes=0-499", "bytes=500-999"],
@@ -1666,7 +1666,7 @@
   },
   "Redirect-Ref": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the URI to which the request should be redirected",
     "values": ["http://example.com/resource1", "http://example.com/resource2"],
@@ -1675,7 +1675,7 @@
   },
   "Referer": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the address of the previous web page from which a link to the currently requested page was followed",
     "values": [
@@ -1687,7 +1687,7 @@
   },
   "Referer-Root": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the root URL of the referring document",
     "values": ["http://example.com", "https://example.org"],
@@ -1696,7 +1696,7 @@
   },
   "Referrer-Policy": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "The header name does not share the HTTP Referer header's misspelling.",
     "description": "Specifies the referrer policy that controls how much referrer information should be included with requests",
     "values": [
@@ -1714,7 +1714,7 @@
   },
   "Refresh": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Instructs the browser to refresh the page after a specified number of seconds",
     "values": ["5; url=http://example.com", "10; url=https://example.org"],
@@ -1723,7 +1723,7 @@
   },
   "Repeatability-Client-ID": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies a unique identifier for the client making the request",
     "values": ["client-id-1234", "client-id-5678"],
@@ -1732,7 +1732,7 @@
   },
   "Repeatability-First-Sent": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the date and time when the request was first sent",
     "values": ["2023-10-01T12:00:00Z", "2023-10-02T15:30:00Z"],
@@ -1741,7 +1741,7 @@
   },
   "Repeatability-Request-ID": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies a unique identifier for the repeatable request",
     "values": ["request-id-1234", "request-id-5678"],
@@ -1750,7 +1750,7 @@
   },
   "Repeatability-Result": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the result of processing a repeatable request",
     "values": ["accepted", "rejected"],
@@ -1759,7 +1759,7 @@
   },
   "Replay-Nonce": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "A unique value that allows the server to detect replay attacks",
     "values": ["nonce-value1", "nonce-value2"],
@@ -1768,7 +1768,7 @@
   },
   "Reporting-Endpoints": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the endpoints to which reports should be sent",
     "values": [
@@ -1780,7 +1780,7 @@
   },
   "Repr-Digest": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides a digest of the representation data",
     "values": ["SHA-256=abc123", "SHA-512=def456"],
@@ -1789,7 +1789,7 @@
   },
   "Retry-After": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates how long the user agent should wait before making a follow-up request",
     "values": ["120", "Wed, 21 Oct 2015 07:28:00 GMT"],
@@ -1798,7 +1798,7 @@
   },
   "Safe": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "Indicates that the response is safe to display to the user",
     "values": ["yes"],
@@ -1807,7 +1807,7 @@
   },
   "Schedule-Reply": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the scheduling response for a CalDAV request",
     "values": ["1.0"],
@@ -1816,7 +1816,7 @@
   },
   "Schedule-Tag": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides a tag for scheduling messages in CalDAV",
     "values": ["tag1", "tag2"],
@@ -1825,7 +1825,7 @@
   },
   "Sec-GPC": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the user's preference regarding privacy",
     "values": ["1"],
@@ -1834,7 +1834,7 @@
   },
   "Sec-Purpose": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Intended to replace the (not registered) Purpose and x-moz headers.",
     "description": "Indicates the purpose of the request",
     "values": ["prefetch", "prerender", "websocket"],
@@ -1843,7 +1843,7 @@
   },
   "Sec-Token-Binding": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the token binding status of the request",
     "values": ["token-binding-id"],
@@ -1852,7 +1852,7 @@
   },
   "Sec-WebSocket-Accept": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used in the WebSocket handshake to confirm the server's acceptance of the connection",
     "values": ["s3pPLMBiTxaQ9kYGzzhZRbK+xOo="],
@@ -1861,7 +1861,7 @@
   },
   "Sec-WebSocket-Extensions": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the WebSocket extensions that the client wishes to use",
     "values": ["permessage-deflate", "x-webkit-deflate-frame"],
@@ -1870,7 +1870,7 @@
   },
   "Sec-WebSocket-Key": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "A base64-encoded value that is used in the WebSocket handshake",
     "values": ["dGhlIHNhbXBsZSBub25jZQ==", "x3JJHMbDL1EzLkh9GBhXDw=="],
@@ -1879,7 +1879,7 @@
   },
   "Sec-WebSocket-Protocol": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies one or more protocol-level extensions that the client wishes to use",
     "values": ["chat", "superchat"],
@@ -1888,7 +1888,7 @@
   },
   "Sec-WebSocket-Version": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the WebSocket protocol version that the client wishes to use",
     "values": ["13"],
@@ -1897,7 +1897,7 @@
   },
   "Security-Scheme": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic Status change of HTTP experiments to Historic",
     "description": "Specifies the security scheme used in the request",
     "values": ["Basic", "Digest"],
@@ -1906,7 +1906,7 @@
   },
   "Server": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Contains information about the software used by the origin server to handle the request",
     "values": ["Apache/2.4.1", "nginx/1.14.0"],
@@ -1915,7 +1915,7 @@
   },
   "Server-Timing": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides timing information from the server",
     "values": ["db;dur=53", "app;dur=47.2"],
@@ -1924,7 +1924,7 @@
   },
   "Set-Cookie": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to send cookies from the server to the user agent",
     "values": [
@@ -1936,7 +1936,7 @@
   },
   "Set-Cookie2": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsoleted by RFC 6265: HTTP State Management Mechanism",
     "description": "Used to send cookies from the server to the user agent (obsolete)",
     "values": [
@@ -1948,7 +1948,7 @@
   },
   "SetProfile": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Used to set a profile for the user (obsolete)",
     "values": ["profile1", "profile2"],
@@ -1957,7 +1957,7 @@
   },
   "Signature": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides a digital signature for the HTTP message",
     "values": [
@@ -1969,7 +1969,7 @@
   },
   "Signature-Input": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides the input parameters for generating an HTTP message signature",
     "values": [
@@ -1981,7 +1981,7 @@
   },
   "SLUG": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Suggests a title for the resource being created",
     "values": ["example-title", "another-title"],
@@ -1990,7 +1990,7 @@
   },
   "SoapAction": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the intent of the SOAP HTTP request",
     "values": [
@@ -2002,7 +2002,7 @@
   },
   "Status-URI": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides a URI to check the status of a long-running operation",
     "values": [
@@ -2014,7 +2014,7 @@
   },
   "Strict-Transport-Security": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Enforces secure (HTTP over SSL/TLS) connections to the server",
     "values": [
@@ -2026,7 +2026,7 @@
   },
   "Sunset": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the date and time after which the resource is expected to become unavailable",
     "values": [
@@ -2038,7 +2038,7 @@
   },
   "Surrogate-Capability": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the capabilities of a surrogate (intermediary) server",
     "values": ["key1=\"value1\"", "key2=\"value2\""],
@@ -2047,7 +2047,7 @@
   },
   "Surrogate-Control": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Controls the behavior of a surrogate (intermediary) server",
     "values": ["max-age=3600", "no-store"],
@@ -2056,7 +2056,7 @@
   },
   "TCN": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the outcome of transparent content negotiation for the request",
     "values": ["list", "choice", "adhoc"],
@@ -2065,7 +2065,7 @@
   },
   "TE": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the transfer encodings the user agent is willing to accept",
     "values": ["trailers", "chunked"],
@@ -2074,7 +2074,7 @@
   },
   "Timeout": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the amount of time the client is willing to wait for a response",
     "values": ["Second-120", "Second-300"],
@@ -2083,7 +2083,7 @@
   },
   "Timing-Allow-Origin": {
     "status": "provisional",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies origins that are allowed to see values of attributes retrieved via the Resource Timing API",
     "values": ["*", "http://example.com"],
@@ -2092,7 +2092,7 @@
   },
   "Topic": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the topic of the push message",
     "values": ["news", "updates"],
@@ -2101,7 +2101,7 @@
   },
   "Traceparent": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Carries the tracing information in a distributed tracing system",
     "values": ["00-4bf92f3577b34da6a3ce929d0e0e4736-00f067aa0ba902b7-01"],
@@ -2110,7 +2110,7 @@
   },
   "Tracestate": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides additional vendor-specific trace identification information",
     "values": ["congo=t61rcWkgMzE", "rojo=00f067aa0ba902b7"],
@@ -2119,7 +2119,7 @@
   },
   "Trailer": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates that the given set of header fields is present in the trailer of a message encoded with chunked transfer coding",
     "values": ["Expires", "Content-MD5"],
@@ -2128,7 +2128,7 @@
   },
   "Transfer-Encoding": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the form of encoding used to safely transfer the payload body to the user",
     "values": ["chunked", "compress", "deflate", "gzip"],
@@ -2137,7 +2137,7 @@
   },
   "TTL": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the time-to-live for the push message",
     "values": ["60", "3600"],
@@ -2146,7 +2146,7 @@
   },
   "Upgrade": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies additional protocols that the server supports",
     "values": ["HTTP/2.0", "websocket"],
@@ -2155,7 +2155,7 @@
   },
   "Urgency": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the urgency of the push message",
     "values": ["very-low", "low", "normal", "high"],
@@ -2164,7 +2164,7 @@
   },
   "URI": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Specifies the URI of the resource",
     "values": [
@@ -2176,7 +2176,7 @@
   },
   "User-Agent": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Contains information about the user agent originating the request",
     "values": [
@@ -2188,7 +2188,7 @@
   },
   "Variant-Vary": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the dimensions over which the response varies",
     "values": ["accept-language", "accept-encoding"],
@@ -2197,7 +2197,7 @@
   },
   "Vary": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the set of request headers that determine the cache key",
     "values": ["Accept-Encoding", "User-Agent"],
@@ -2206,7 +2206,7 @@
   },
   "Via": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the intermediate protocols and recipients between the user agent and the server",
     "values": ["1.1 example.com", "1.0 proxy.example.com"],
@@ -2215,7 +2215,7 @@
   },
   "Want-Content-Digest": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the client's preference for receiving a content digest in the response",
     "values": ["sha-256", "sha-512"],
@@ -2224,7 +2224,7 @@
   },
   "Want-Digest": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "Obsoleted by RFC 9530, Section 1.3: Digest Fields",
     "description": "Indicates the client's preference for receiving an instance digest in the response",
     "values": ["md5", "sha-1"],
@@ -2233,7 +2233,7 @@
   },
   "Want-Repr-Digest": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the client's preference for receiving a representation digest in the response",
     "values": ["sha-256", "sha-512"],
@@ -2242,7 +2242,7 @@
   },
   "Warning": {
     "status": "obsoleted",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Provides additional information about the status or transformation of a HTTP message",
     "values": ["110 Response is stale", "214 Transformation applied"],
@@ -2251,7 +2251,7 @@
   },
   "WWW-Authenticate": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates the authentication method that should be used to access a resource",
     "values": ["Basic realm=\"example\"", "Bearer realm=\"example\""],
@@ -2260,7 +2260,7 @@
   },
   "X-Content-Type-Options": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates that the MIME types advertised in the Content-Type headers should not be changed and be followed",
     "values": ["nosniff"],
@@ -2269,7 +2269,7 @@
   },
   "X-Frame-Options": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "",
     "description": "Indicates whether a browser should be allowed to render a page in a <frame>, <iframe>, <embed>, or <object>",
     "values": ["DENY", "SAMEORIGIN"],
@@ -2278,7 +2278,7 @@
   },
   "*": {
     "status": "permanent",
-    "structured type": "",
+    "structured_type": "",
     "comments": "(reserved)",
     "description": "Reserved for future use",
     "values": [],
